@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Alias
+GenericName=Alias
+Comment=Application to determine a winner
+Categories=GTK;Utility;
+Exec=com.github.bartzaalberg.alias
+Icon=com.github.bartzaalberg.alias
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=alias
+Keywords=guess;alias;
+Actions=AboutDialog;
+
+[Desktop Action AboutDialog]
+Exec=xdg-open appstream://com.github.bartzaalberg.alias.desktop
+Name=About Alias

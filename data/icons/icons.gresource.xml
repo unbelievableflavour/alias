@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/bartzaalberg/alias">
+    <file alias="alias-crown.svg" compressed="true" preprocess="xml-stripblanks">alias-crown.svg</file>
+  </gresource>
+</gresources>

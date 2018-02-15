@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.github.bartzaalberg.alias.desktop</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Alias</name>
+  <summary>Simplify your commands</summary>
+  <description>
+    <p>A tool to manage your bash aliases</p>
+    <p>Features:</p>
+     <ul>
+       <li>Manage your aliases</li>
+    </ul>
+  </description>
+ <releases>
+    <release version="0.0.1" date="2017-10-14">
+      <description>
+        <p>0.0.1</p>
+        <ul>
+          <li>First release</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+  <developer_name>Bart Zaalberg</developer_name>
+  <custom>
+    <value key="x-appcenter-color-primary">rgba(245, 245, 245, 1)</value>
+    <value key="x-appcenter-color-primary-text">#fe2e56</value>
+  </custom>
+  <url type="homepage">https://github.com/bartzaalberg/alias</url>
+  <url type="bugtracker">https://github.com/bartzaalberg/alias/issues</url>
+  <url type="help">https://github.com/bartzaalberg/alias/issues</url>
+</component>
