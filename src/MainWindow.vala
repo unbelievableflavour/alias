@@ -16,8 +16,6 @@ public class MainWindow : Gtk.Window{
 
         listManager.getList().getRepositories("");
 
-        stackManager.getStack().visible_child_name = "welcome-view";
-
         addShortcuts();
     }
 

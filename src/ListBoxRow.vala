@@ -4,7 +4,7 @@ namespace Application {
 public class ListBoxRow : Gtk.ListBoxRow {
 
     private Gtk.Image delete_image = new Gtk.Image.from_icon_name ("edit-delete-symbolic", Gtk.IconSize.SMALL_TOOLBAR);
-    private Gtk.Image icon = new Gtk.Image.from_icon_name ("avatar-default-symbolic", Gtk.IconSize.DND);
+    private Gtk.Image icon = new Gtk.Image.from_icon_name ("utilities-terminal", Gtk.IconSize.DND);
     private EntryManager entryManager = EntryManager.get_instance();
     private ListManager listManager = ListManager.get_instance();
 

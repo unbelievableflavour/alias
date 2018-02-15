@@ -17,7 +17,8 @@ public class EntryManager : Gtk.ListBox{
     }
 
     public string[] getEntries (){
-        return entries;
+        var responseTranslator = new ResponseTranslator();
+        return responseTranslator.getAliases();
     }
 
     public void addEntry (string entry){
