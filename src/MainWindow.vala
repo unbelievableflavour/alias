@@ -27,11 +27,6 @@ public class MainWindow : Gtk.Window{
                         new AddEntry(); 
                     }
                     break;
-                case Gdk.Key.i:
-                    if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                        headerBar.importNames();
-                    }
-                    break;
                 case Gdk.Key.w:
                     if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
                         stackManager.showWinnerView();

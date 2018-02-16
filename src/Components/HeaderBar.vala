@@ -11,8 +11,7 @@ public class HeaderBar : Gtk.HeaderBar {
    
     public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry ();
     Gtk.Button cheatsheet_button = new Gtk.Button.from_icon_name ("open-menu", Gtk.IconSize.LARGE_TOOLBAR);
-    Gtk.Button create_button = new Gtk.Button.from_icon_name ("contact-new", Gtk.IconSize.LARGE_TOOLBAR);
-    Gtk.Button import_button = new Gtk.Button.from_icon_name ("document-import", Gtk.IconSize.LARGE_TOOLBAR);
+    Gtk.Button create_button = new Gtk.Button.from_icon_name ("tag-new", Gtk.IconSize.LARGE_TOOLBAR);
     Gtk.Button return_button = new Gtk.Button ();
     Gtk.Button lottery_button = new Gtk.Button();
 
@@ -21,7 +20,6 @@ public class HeaderBar : Gtk.HeaderBar {
         
         generateSearchEntry();
         generateCreateButton();
-        generateImportButton();
         generateReturnButton();
         generateChooseWinnerButton();
         generateCheatsheetButton();
@@ -30,7 +28,6 @@ public class HeaderBar : Gtk.HeaderBar {
 
         this.pack_start (return_button);
         this.pack_start (create_button);
-        this.pack_start (import_button);
         this.pack_start (searchEntry);
 
         this.pack_end (cheatsheet_button);
@@ -77,48 +74,6 @@ public class HeaderBar : Gtk.HeaderBar {
         });
     }
 
-    private void generateImportButton(){
-        import_button.set_tooltip_text(_("Import names from CSV"));
-        import_button.clicked.connect (importNames);
-    }
-
-    public void importNames(){
-        var path = getFilePath();
-
-        if(path == ""){
-            return;
-        }
-
-        var file = File.new_for_path (path);
-        if (!file.query_exists ()) {
-            new Alert(_("File doesnt exist"), _("File ") + file.get_path () + _(" doesn't exist"));
-            return;
-        }
-
-        importNamesFromCSV(file);
-    }
-
-    public void importNamesFromCSV(File file) {
-        try {
-            var dis = new DataInputStream (file.read ());
-            string line;
-            // Read lines until end of file (null) is reached
-            while ((line = dis.read_line (null)) != null) {
-                string[] names = line.split (",");
-                foreach(string name in names){
-                    if(name.strip() == ""){
-                        continue;
-                    }
-                    entryManager.addEntry(name);
-                }
-            }
-        } catch (Error e) {
-            error ("%s", e.message);
-        }
-
-        listManager.getList().getRepositories("");
-    }
-
     private void generateReturnButton(){
         return_button.label = _("Back");
         return_button.no_show_all = true;
@@ -132,7 +87,6 @@ public class HeaderBar : Gtk.HeaderBar {
     public void showButtons(bool answer){
         searchEntry.visible = answer;
         create_button.visible = answer;
-        import_button.visible = answer;
         lottery_button.visible = answer;
         cheatsheet_button.visible = answer;
     }
