@@ -59,14 +59,18 @@
         src/StackManager.vala
         src/ListManager.vala
         src/ResponseTranslator.vala
+        src/Alias.vala
         src/Dialogs/Alert.vala
-        src/Dialogs/AddEntry.vala
         src/Dialogs/DeleteConfirm.vala
         src/Dialogs/Cheatsheet.vala
         src/Views/ListView.vala
         src/Views/NotFoundView.vala
         src/Views/WelcomeView.vala
-        src/Views/WinnerView.vala
+        src/Views/EditView.vala
+        src/Views/CreateView.vala
+        src/Components/FormComponent.vala
+        src/Components/FormLabel.vala
+        src/Components/FormEntry.vala
         src/Components/HeaderBar.vala
         src/Components/HeaderLabel.vala
 

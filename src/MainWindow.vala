@@ -24,12 +24,6 @@ public class MainWindow : Gtk.Window{
             switch (e.keyval) { 
                 case Gdk.Key.a:
                     if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                        new AddEntry(); 
-                    }
-                    break;
-                case Gdk.Key.w:
-                    if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                        stackManager.showWinnerView();
                     }
                     break;
                 case Gdk.Key.h:

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Alias
 GenericName=Alias
-Comment=Application to determine a winner
+Comment=Simplify your commands
 Categories=GTK;Utility;
 Exec=com.github.bartzaalberg.alias
 Icon=com.github.bartzaalberg.alias
