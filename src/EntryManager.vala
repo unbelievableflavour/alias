@@ -16,7 +16,7 @@ public class EntryManager : Gtk.ListBox{
         return instance;
     }
 
-    public string[] getEntries (){
+    public Alias[] getEntries (){
         var responseTranslator = new ResponseTranslator();
         return responseTranslator.getAliases();
     }
@@ -35,11 +35,6 @@ public class EntryManager : Gtk.ListBox{
         }
 
         entries = newList;
-    }
-
-    public string getWinner(){
-        int randomIndex = GLib.Random.int_range (0, entries.length);
-        return entries[randomIndex];
     }
 }
 }

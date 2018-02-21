@@ -5,12 +5,15 @@ public class StackManager : Object {
     EntryManager entryManager = EntryManager.get_instance();
     
     private Gtk.Stack stack;
+
     private const string LIST_VIEW_ID = "list-view";
     private const string NOT_FOUND_VIEW_ID = "not-found-view";
     private const string WELCOME_VIEW_ID = "welcome-view";
     private const string WINNER_VIEW_ID = "winner-view";
+    private const string CREATE_VIEW_ID = "create-view";
+    private const string EDIT_VIEW_ID = "edit-view";
 
-   WinnerView winnerView;
+    EditView editView;
 
     // Private constructor
     StackManager() {
@@ -31,12 +34,13 @@ public class StackManager : Object {
     }
 
     public void loadViews(Gtk.Window window){
-        winnerView = new WinnerView();
-
         stack.add_named (new ListView(), LIST_VIEW_ID);
         stack.add_named (new NotFoundView(), NOT_FOUND_VIEW_ID);
         stack.add_named (new WelcomeView(), WELCOME_VIEW_ID);
-        stack.add_named (winnerView, WINNER_VIEW_ID);
+        stack.add_named (new CreateView(), CREATE_VIEW_ID);
+
+        editView = new EditView();
+        stack.add_named (editView, EDIT_VIEW_ID);
 
         stack.notify["visible-child"].connect (() => {
             var headerBar = HeaderBar.get_instance();
@@ -55,7 +59,13 @@ public class StackManager : Object {
                 headerBar.showReturnButton(false);
                 headerBar.showButtons(true);
             }
-            if(stack.get_visible_child_name() == WINNER_VIEW_ID){
+
+            if(stack.get_visible_child_name() == CREATE_VIEW_ID){
+                headerBar.showReturnButton(true);
+                headerBar.showButtons(false);
+            }
+
+            if(stack.get_visible_child_name() == EDIT_VIEW_ID){
                 headerBar.showReturnButton(true);
                 headerBar.showButtons(false);
             }
@@ -66,13 +76,8 @@ public class StackManager : Object {
         window.show_all();
     }
 
-    public void showWinnerView(){
-        if(entryManager.getEntries().length == 0){
-                new Alert(_("Cannot choose a winner yet"), _("No names have been added yet"));
-                return;            
-        }
-        winnerView.setWinner(entryManager.getWinner());
-        this.getStack().visible_child_name = "winner-view";
+    public void setEditView(Alias alias){
+        editView.loadView(alias);
     }
 }
 }

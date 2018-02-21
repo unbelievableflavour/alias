@@ -10,28 +10,21 @@ public class HeaderBar : Gtk.HeaderBar {
     EntryManager entryManager = EntryManager.get_instance();
    
     public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry ();
-    Gtk.Button cheatsheet_button = new Gtk.Button.from_icon_name ("open-menu", Gtk.IconSize.LARGE_TOOLBAR);
     Gtk.Button create_button = new Gtk.Button.from_icon_name ("tag-new", Gtk.IconSize.LARGE_TOOLBAR);
     Gtk.Button return_button = new Gtk.Button ();
-    Gtk.Button lottery_button = new Gtk.Button();
 
     HeaderBar() {
-        Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
+        //Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
         
         generateSearchEntry();
         generateCreateButton();
         generateReturnButton();
-        generateChooseWinnerButton();
-        generateCheatsheetButton();
 
         this.show_close_button = true;
 
         this.pack_start (return_button);
         this.pack_start (create_button);
-        this.pack_start (searchEntry);
-
-        this.pack_end (cheatsheet_button);
-        this.pack_end (lottery_button);
+        this.pack_end (searchEntry);
     }
  
     public static HeaderBar get_instance() {
@@ -39,14 +32,6 @@ public class HeaderBar : Gtk.HeaderBar {
             instance = new HeaderBar();
         }
         return instance;
-    }    
-    
-    private void generateCheatsheetButton(){
-        cheatsheet_button.no_show_all = true;
-        cheatsheet_button.set_tooltip_text(_("A list of available shortcuts"));
-        cheatsheet_button.clicked.connect (() => {
-            new Cheatsheet ();
-        });
     }
 
     private void generateSearchEntry(){
@@ -57,20 +42,10 @@ public class HeaderBar : Gtk.HeaderBar {
         });
     }
 
-    private void generateChooseWinnerButton(){
-        var icon = new Gtk.Image.from_icon_name ("lottery-crown", Gtk.IconSize.LARGE_TOOLBAR);
-        lottery_button.set_image(icon);
-        lottery_button.set_tooltip_text(_("Randomly generate a winner"));
-        lottery_button.clicked.connect (() => {
-            stackManager.showWinnerView();    
-        });
-
-    }
-
     private void generateCreateButton(){
         create_button.set_tooltip_text(_("Add a new name"));
         create_button.clicked.connect (() => {
-            new AddEntry();
+            stackManager.getStack().visible_child_name = "create-view";
         });
     }
 
@@ -87,8 +62,6 @@ public class HeaderBar : Gtk.HeaderBar {
     public void showButtons(bool answer){
         searchEntry.visible = answer;
         create_button.visible = answer;
-        lottery_button.visible = answer;
-        cheatsheet_button.visible = answer;
     }
 
     public void showReturnButton(bool answer){

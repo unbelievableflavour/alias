@@ -1,8 +1,8 @@
 namespace Application {
 public class ResponseTranslator : Object{
 
-    public string[] getAliases (){
-        string[] settings = new string[0];
+    public Alias[] getAliases (){
+        Alias[] aliases = {};
 
         var file = getFile();
         
@@ -17,15 +17,17 @@ public class ResponseTranslator : Object{
                     continue;
                 }                
 
+                var alias = new Alias();
+
                 var splittedLine = line.split("alias");
                 var splittedLine2 = splittedLine[1].split("=");
-                var shortcut = splittedLine2[1];
-                var name = splittedLine2[0];
+                alias.setShortcut(splittedLine2[1]);
+                alias.setName(splittedLine2[0]);
 
-                settings += (name + shortcut);
+                aliases += alias;
             }
 
-           return settings;
+           return aliases;
 
         } catch (Error e) {
             error ("%s", e.message);
@@ -56,6 +58,35 @@ public class ResponseTranslator : Object{
         }
 
         return file;
+    }
+
+    public void writeToFile(Alias[] aliases){
+        var file = getFile();
+
+        try {
+            if(file.query_exists() == true){
+                string newFileString = convertToString(aliases);
+
+                file.delete(null);
+                FileOutputStream fos = file.create (FileCreateFlags.REPLACE_DESTINATION, null);
+                DataOutputStream dos = new DataOutputStream (fos);
+                
+                dos.put_string (newFileString, null);
+            }
+        } catch (Error e) {
+            stderr.printf ("Error: %s\n", e.message);
+        }
+    }
+
+    private string convertToString(Alias[] aliases){
+        string rawString = "";
+        
+        foreach (Alias alias in aliases) { 
+            string rawAlias = "alias " + alias.getName() + "=" + alias.getShortcut() + "\n";
+            rawString += rawAlias;  
+        }
+        
+        return rawString;
     }
 }
 }

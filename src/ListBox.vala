@@ -24,13 +24,13 @@ public class ListBox : Gtk.ListBox{
             return;
         }
 
-        foreach (string entry in entries) {
+        foreach (Alias entry in entries) {
             if(searchWord == ""){
                 this.add (new ListBoxRow (entry));
                 continue;
             }
 
-            if(searchWord in entry){             
+            if(searchWord in entry.getName()){             
                 this.add (new ListBoxRow (entry));
             }
         }
@@ -38,15 +38,15 @@ public class ListBox : Gtk.ListBox{
         this.show_all();
     }
 
-    private bool searchWordDoesntMatchAnyInList(string searchWord, string[] entries){
+    private bool searchWordDoesntMatchAnyInList(string searchWord, Alias[] entries){
         int matchCount = 0;
         
         if(searchWord == ""){
             return false;
         }
 
-        foreach (string entry in entries) {
-            if(searchWord in entry){
+        foreach (Alias entry in entries) {
+            if(searchWord in entry.getName()){
                 matchCount++;                
             }
         }
