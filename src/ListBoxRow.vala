@@ -32,8 +32,8 @@ public class ListBoxRow : Gtk.ListBoxRow {
     public Gtk.Label generateNameLabel(Alias entry){
         var name = entry.getName();
         
-        var name_label = new Gtk.Label ("<b>%s</b>".printf (name));
-        name_label.use_markup = true;
+        var name_label = new Gtk.Label (name);
+        name_label.get_style_context().add_class("name-label");
         name_label.halign = Gtk.Align.START;
 
         return name_label;
@@ -42,7 +42,7 @@ public class ListBoxRow : Gtk.ListBoxRow {
     public Gtk.Label generateShortcutLabel(string sshCommand){
 
         var summary_label = new Gtk.Label (sshCommand);
-        summary_label.halign = Gtk.Align.START;
+        summary_label.get_style_context().add_class("shorcut-label");
 
         return summary_label;
     }

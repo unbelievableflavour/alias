@@ -1,0 +1,11 @@
+.listbox-message-row {
+    background-color: #3995D2;
+    color: @fff;
+}
+
+.shorcut-label {
+}
+
+.name-label {
+    font-weight: bold;
+}

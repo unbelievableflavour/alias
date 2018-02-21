@@ -16,8 +16,7 @@ public class App:Granite.Application{
     }
 
     public override void activate() {
-        weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
-        default_theme.add_resource_path ("/com/github/bartzaalberg/lottery");
+        loadGresources();
 
         var window = new MainWindow ();
         window.destroy.connect (Gtk.main_quit);
@@ -31,6 +30,17 @@ public class App:Granite.Application{
         Gtk.main();
  
         return 0;
+    }
+
+    private void loadGresources(){
+
+        var provider = new Gtk.CssProvider ();
+        provider.load_from_resource ("/com/github/bartzaalberg/alias/application.css");
+        Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+       
+
+        weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
+        default_theme.add_resource_path ("/com/github/bartzaalberg/alias");
     }
  
 }

@@ -6,7 +6,7 @@ public class CreateView : FormComponent {
     ResponseTranslator responseTranslator = new ResponseTranslator();
 
     public CreateView(){
-        general_header.set_text(_("Add new bookmark"));
+        general_header.set_text(_("Add a new alias"));
 
         var create_button = new Gtk.Button.with_label (_("Create"));
         create_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);

@@ -5,9 +5,10 @@ public class ListView : Gtk.ScrolledWindow {
 
    public ListView(){ 
         add(listManager.getList());
+    
         hscrollbar_policy = Gtk.PolicyType.NEVER;        
         
         this.show_all();
-    }
+   }
 }
 }
