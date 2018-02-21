@@ -1,114 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-21 22:56+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: ../src/ListBoxRow.vala:53
 msgid "Edit this alias"
-msgstr "Wijzig deze alias"
+msgstr ""
 
 #: ../src/ListBoxRow.vala:66
 msgid "Remove this alias"
-msgstr "Verwijder deze alias"
+msgstr ""
 
 #: ../src/Components/HeaderBar.vala:37
 msgid "Search for aliases"
-msgstr "Zoek voor aliasen"
+msgstr ""
 
 #: ../src/Components/HeaderBar.vala:38
 msgid "Search for names of aliases"
-msgstr "Zoek voor namen van aliasen"
+msgstr ""
 
 #: ../src/Components/HeaderBar.vala:45 ../src/Views/CreateView.vala:9
 msgid "Add a new alias"
-msgstr "Voeg een nieuwe alias toe"
+msgstr ""
 
 #: ../src/Components/HeaderBar.vala:52
 msgid "Back"
-msgstr "Terug"
+msgstr ""
 
 #: ../src/Components/FormComponent.vala:4
 msgid "A form"
-msgstr "Een formulier"
+msgstr ""
 
 #: ../src/Components/FormComponent.vala:6
 msgid "name"
-msgstr "naam"
+msgstr ""
 
 #: ../src/Components/FormComponent.vala:7
 msgid "command"
-msgstr "command"
+msgstr ""
 
 #: ../src/Components/FormComponent.vala:13
 msgid "Name:"
-msgstr "Naam:"
+msgstr ""
 
 #: ../src/Components/FormComponent.vala:14
 msgid "command:*"
-msgstr "command:*"
+msgstr ""
 
 #: ../src/ListBox.vala:59
 msgid "Note: Changes take effect after relogging in."
-msgstr "Let op! De wijzigingen werken pas als je opnieuw bent ingelogd."
+msgstr ""
 
 #: ../src/Views/CreateView.vala:11
 msgid "Create"
-msgstr "Creeer"
+msgstr ""
 
 #: ../src/Views/CreateView.vala:28 ../src/Views/EditView.vala:47
 msgid "Fields are invalid"
-msgstr "Velden zijn onjuist ingevuld"
+msgstr ""
 
 #: ../src/Views/CreateView.vala:28 ../src/Views/EditView.vala:47
 msgid "Please correctly fill in all the required fields"
-msgstr "Vul aub de verplichte velden juist in."
+msgstr ""
 
 #: ../src/Views/CreateView.vala:33
 msgid "Alias with this name already exists"
-msgstr "Een alias met dezelfde naam bestaat al"
+msgstr ""
 
 #: ../src/Views/CreateView.vala:33
 msgid "Please choose a different name"
-msgstr "Kies aub een andere naam"
+msgstr ""
 
 #: ../src/Views/EditView.vala:9
 msgid "Edit a alias"
-msgstr "Wijzig een alias"
+msgstr ""
 
 #: ../src/Views/EditView.vala:13
 msgid "Edit"
-msgstr "Wijzigen"
+msgstr ""
 
 #: ../src/Views/WelcomeView.vala:9
 msgid "You are new!"
-msgstr "Je bent nieuw!"
+msgstr ""
 
 #: ../src/Views/WelcomeView.vala:9
 msgid ""
 "Some lines of code has to be added to your .bashrc file to use your aliases."
-msgstr "Er moeten een paar regels worden toegevoegd aan het .bashrc bestand om je aliasen te kunnen gebruiken."
+msgstr ""
 
 #: ../src/Views/WelcomeView.vala:10
 msgid "I'm OK with that."
-msgstr "Dit vind ik goed."
+msgstr ""
 
 #: ../src/Views/NotFoundView.vala:7
 msgid "Nothing was found"
-msgstr "Er is helaas niet gevonden"
+msgstr ""
 
 #: ../src/Views/NotFoundView.vala:7
 msgid "Try searching for something else"
-msgstr "Probeer naar iets anders te zoeken"
-
-#: ../src/Dialogs/Cheatsheet.vala:29
-msgid "Close"
-msgstr "Sluiten"
+msgstr ""
 
 #: ../src/Dialogs/DeleteConfirm.vala:8
 msgid "Are you sure?"
-msgstr "Weet u het zeker?"
+msgstr ""
 
 #: ../src/Dialogs/DeleteConfirm.vala:8
 msgid "You are about to remove this alias. Are you sure?"
-msgstr "U staat op het punt deze alias te verwijderen. Weet u dit zeker?"
+msgstr ""

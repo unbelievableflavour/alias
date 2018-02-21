@@ -50,7 +50,7 @@ public class ListBoxRow : Gtk.ListBoxRow {
     public Gtk.EventBox generateEditButton(Alias alias){
         var edit_button = new Gtk.EventBox();
         edit_button.add(edit_image);
-        edit_button.set_tooltip_text(_("Edit this bookmark"));
+        edit_button.set_tooltip_text(_("Edit this alias"));
         edit_button.button_press_event.connect (() => {
             stackManager.setEditView(alias);
             stackManager.getStack().visible_child_name = "edit-view";
@@ -63,7 +63,7 @@ public class ListBoxRow : Gtk.ListBoxRow {
     public Gtk.EventBox generateDeleteButton(Alias alias){
         var delete_button = new Gtk.EventBox();
         delete_button.add(delete_image);
-        delete_button.set_tooltip_text(_("Remove this name"));
+        delete_button.set_tooltip_text(_("Remove this alias"));
         delete_button.button_press_event.connect (() => {
             new DeleteConfirm(alias);
             listManager.getList().getRepositories("");

@@ -26,19 +26,20 @@ public class MainWindow : Gtk.Window{
 
     private void addShortcuts(){
         key_press_event.connect ((e) => { 
-            switch (e.keyval) { 
-                case Gdk.Key.a:
-                    if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                    }
-                    break;
-                case Gdk.Key.h:
-                    if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
-                        new Cheatsheet(); 
-                    }
-                    break;
-                case Gdk.Key.f:    
+            switch (e.keyval) {
+                case Gdk.Key.a:    
+                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
+                    stackManager.getStack().visible_child_name = "create-view";
+                  }
+                  break;
+                case Gdk.Key.f:
                   if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
                     headerBar.searchEntry.grab_focus();
+                  }
+                  break;
+                case Gdk.Key.q:
+                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {  
+                    Gtk.main_quit();
                   }
                   break;
             }

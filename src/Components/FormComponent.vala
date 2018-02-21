@@ -1,21 +1,17 @@
 namespace Application {
 public class FormComponent : Gtk.Grid{
 
-    protected HeaderLabel general_header = new HeaderLabel (_("A bookmark form"));
+    protected HeaderLabel general_header = new HeaderLabel (_("A form"));
 
-    protected Gtk.Entry nameEntry = new FormEntry (_("if not set. shortcut is used"));
-    protected Gtk.Entry shortcutEntry = new FormEntry (_("server1"));
-    protected Gtk.Entry shortcutNameEntry = new FormEntry (_("127.0.0.1"));
-    protected Gtk.Entry userNameEntry = new FormEntry (_("james"));
-    protected Gtk.Entry portEntry = new FormEntry (_("80"));
-    protected Gtk.Entry proxyCommandEntry = new FormEntry (_("ssh bookmark nc %h %p"));
+    protected Gtk.Entry nameEntry = new FormEntry (_("name"));
+    protected Gtk.Entry shortcutEntry = new FormEntry (_("command"));
 
     protected Gtk.ButtonBox button_box = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
 
     public FormComponent(){
 
         var nameLabel = new FormLabel (_("Name:"));
-        var shortcutLabel = new FormLabel (_("shortcut:*"));
+        var shortcutLabel = new FormLabel (_("command:*"));
 
         button_box.set_layout (Gtk.ButtonBoxStyle.END);
         button_box.set_margin_start(12);
