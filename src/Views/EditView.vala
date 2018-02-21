@@ -49,10 +49,11 @@ public class EditView : FormComponent {
         
         aliases[index] = alias;
 
-        //responseTranslator.writeToFile(aliases);
+        responseTranslator.writeToFile(aliases);
         
         var entryManager = EntryManager.get_instance();
         entryManager.getEntries();
+        stackManager.getStack().visible_child_name = "list-view";
     }
 
     public int getCorrectAliasIndex(Alias editedAlias, Alias[] aliases){
