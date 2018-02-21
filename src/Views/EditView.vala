@@ -1,6 +1,9 @@
 namespace Application {
 public class EditView : FormComponent { 
 
+    private ListManager listManager = ListManager.get_instance();
+    private StackManager stackManager = StackManager.get_instance();
+
     public EditView(){ 
 
         general_header.set_text(_("Edit a alias"));
@@ -50,9 +53,7 @@ public class EditView : FormComponent {
         aliases[index] = alias;
 
         responseTranslator.writeToFile(aliases);
-        
-        var entryManager = EntryManager.get_instance();
-        entryManager.getEntries();
+        listManager.getList().getRepositories("");
         stackManager.getStack().visible_child_name = "list-view";
     }
 

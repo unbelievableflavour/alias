@@ -1,6 +1,8 @@
 namespace Application {
 public class CreateView : FormComponent {
-     private StackManager stackManager = StackManager.get_instance();
+
+    private ListManager listManager = ListManager.get_instance();
+    private StackManager stackManager = StackManager.get_instance();
     ResponseTranslator responseTranslator = new ResponseTranslator();
 
     public CreateView(){
@@ -35,9 +37,7 @@ public class CreateView : FormComponent {
         aliases += alias;
 
         responseTranslator.writeToFile(aliases);
-        
-        var entryManager = EntryManager.get_instance();
-        entryManager.getEntries();
+        listManager.getList().getRepositories(""); 
         stackManager.getStack().visible_child_name = "list-view";
     }
 

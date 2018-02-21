@@ -2,7 +2,6 @@ namespace Application {
 public class StackManager : Object {
     
     static StackManager? instance;
-    EntryManager entryManager = EntryManager.get_instance();
     
     private Gtk.Stack stack;
 

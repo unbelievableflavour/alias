@@ -7,7 +7,6 @@ public class HeaderBar : Gtk.HeaderBar {
 
     ListManager listManager = ListManager.get_instance();
     StackManager stackManager = StackManager.get_instance();
-    EntryManager entryManager = EntryManager.get_instance();
    
     public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry ();
     Gtk.Button create_button = new Gtk.Button.from_icon_name ("tag-new", Gtk.IconSize.LARGE_TOOLBAR);

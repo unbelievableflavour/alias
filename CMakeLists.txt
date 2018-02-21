@@ -54,7 +54,6 @@
         src/MainWindow.vala
         src/ListBoxRow.vala
         src/ListBox.vala
-        src/EntryManager.vala
         src/Constants.vala
         src/StackManager.vala
         src/ListManager.vala

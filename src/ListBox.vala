@@ -3,7 +3,7 @@ using Granite.Widgets;
 namespace Application {
 public class ListBox : Gtk.ListBox{
 
-    private EntryManager entryManager = EntryManager.get_instance();
+    private ResponseTranslator responseTranslator = new ResponseTranslator();
     private StackManager stackManager = StackManager.get_instance();
 
     public void empty(){
@@ -17,7 +17,7 @@ public class ListBox : Gtk.ListBox{
 
         stackManager.getStack().visible_child_name = "list-view";
 
-        var entries = entryManager.getEntries();
+        var entries = responseTranslator.getAliases();
 
         if(searchWordDoesntMatchAnyInList(searchWord, entries)) {
             stackManager.getStack().visible_child_name = "not-found-view";

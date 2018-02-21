@@ -7,7 +7,6 @@ public class ListBoxRow : Gtk.ListBoxRow {
     private Gtk.Image edit_image = new Gtk.Image.from_icon_name ("document-properties-symbolic", Gtk.IconSize.SMALL_TOOLBAR);
     private Gtk.Image delete_image = new Gtk.Image.from_icon_name ("edit-delete-symbolic", Gtk.IconSize.SMALL_TOOLBAR);
     private Gtk.Image icon = new Gtk.Image.from_icon_name ("utilities-terminal", Gtk.IconSize.DND);
-    private EntryManager entryManager = EntryManager.get_instance();
     private ListManager listManager = ListManager.get_instance();
     private Gtk.Box vertical_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 6);
 
@@ -66,7 +65,7 @@ public class ListBoxRow : Gtk.ListBoxRow {
         delete_button.add(delete_image);
         delete_button.set_tooltip_text(_("Remove this name"));
         delete_button.button_press_event.connect (() => {
-            //entryManager.removeAlias(alias);
+            new DeleteConfirm(alias);
             listManager.getList().getRepositories("");
             return true;
         });
