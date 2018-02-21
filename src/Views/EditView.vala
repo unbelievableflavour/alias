@@ -48,8 +48,7 @@ public class EditView : FormComponent {
             return;
         }
 
-        var index = getCorrectAliasIndex(alias, aliases);
-        
+        var index = getCorrectAliasIndex(alias, aliases);      
         aliases[index] = alias;
 
         responseTranslator.writeToFile(aliases);

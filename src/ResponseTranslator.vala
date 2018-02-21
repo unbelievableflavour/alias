@@ -92,47 +92,9 @@ public class ResponseTranslator : Object{
         try {
             if(file.query_exists() == true){
 
-                string bashFileLines = "";
-                var lines = new DataInputStream (file.read ());
-
-                string line;
-                while ((line = lines.read_line (null)) != null) {
-                    bashFileLines += line;
-                }
-
                 string newFileString = convertToString(aliases);
 
                 file.delete(null);
-                FileOutputStream fos = file.create (FileCreateFlags.REPLACE_DESTINATION, null);
-                DataOutputStream dos = new DataOutputStream (fos);
-                
-                dos.put_string (newFileString + bashFileLines, null);
-            }
-        } catch (Error e) {
-            stderr.printf ("Error: %s\n", e.message);
-        }
-    }
-
-    public void configureAliases(){
-        var file = getFile("/.bashrc");
-
-        try {
-            if(file.query_exists() == true){
-
-                 string bashFileLines = "";
-                var lines = new DataInputStream (file.read ());
-
-                string line;
-                while ((line = lines.read_line (null)) != null) {
-                    bashFileLines += line;
-                }
-
-
-                string newFileString = "#include_bash_aliases
-if [ -f ~/.bash_aliases ]; then
-    source ~/.bash_aliases
-fi;";
-
                 FileOutputStream fos = file.create (FileCreateFlags.REPLACE_DESTINATION, null);
                 DataOutputStream dos = new DataOutputStream (fos);
                 
@@ -143,6 +105,36 @@ fi;";
         }
     }
 
+    public void configureAliases(){
+
+        var file = getFile("/.bashrc");
+
+        try {
+            if(file.query_exists() == true){
+
+                 string bashFileLines = "";
+                var lines = new DataInputStream (file.read ());
+
+                string line;
+                while ((line = lines.read_line (null)) != null) {
+                    bashFileLines += (line + "\n");
+                }
+                string newFileString = "\n
+#include_bash_aliases
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi;";
+
+                file.delete(null);
+                FileOutputStream fos = file.create (FileCreateFlags.REPLACE_DESTINATION, null);
+                DataOutputStream dos = new DataOutputStream (fos);
+                
+                dos.put_string (bashFileLines + newFileString, null);
+            }
+        } catch (Error e) {
+            stderr.printf ("Error: %s\n", e.message);
+        }
+    }
     private string convertToString(Alias[] aliases){
         string rawString = "";
         
