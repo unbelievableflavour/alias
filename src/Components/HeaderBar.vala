@@ -36,6 +36,8 @@ public class HeaderBar : Gtk.HeaderBar {
     private void generateSearchEntry(){
         searchEntry.set_placeholder_text(_("Search for aliases"));
         searchEntry.set_tooltip_text(_("Search for names of aliases"));
+        searchEntry.no_show_all = true;
+        searchEntry.visible = true;
         searchEntry.search_changed.connect (() => {
             listManager.getList().getRepositories(searchEntry.text); 
         });
@@ -43,6 +45,8 @@ public class HeaderBar : Gtk.HeaderBar {
 
     private void generateCreateButton(){
         create_button.set_tooltip_text(_("Add a new alias"));
+        create_button.no_show_all = true;
+        create_button.visible = true;
         create_button.clicked.connect (() => {
             stackManager.getStack().visible_child_name = "create-view";
         });

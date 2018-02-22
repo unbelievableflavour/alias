@@ -46,7 +46,7 @@ public class StackManager : Object {
 
             if(stack.get_visible_child_name() == WELCOME_VIEW_ID){
                 headerBar.showReturnButton(false);
-                headerBar.showButtons(true);
+                headerBar.showButtons(false);
             }
 
             if(stack.get_visible_child_name() == NOT_FOUND_VIEW_ID){
