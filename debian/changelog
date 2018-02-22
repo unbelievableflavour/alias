@@ -1,5 +1,11 @@
+com.github.bartzaalberg.alias (0.0.2) UNSTABLE; urgency=low
+
+  * Fixed deployment
+  * Removed buttons from welcome view
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Thu, 22 Feb 2018 17:04:00 +0200
+
 com.github.bartzaalberg.alias (0.0.1) UNSTABLE; urgency=low
 
   * First release
 
- -- Bart Zaalberg <bartzaalberg@gmail.com>  Sat, 21 Feb 2018 23:09:00 +0200
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Wed, 21 Feb 2018 23:09:00 +0200
