@@ -52,6 +52,7 @@ public class EditView : FormComponent {
         aliases[index] = alias;
 
         responseTranslator.writeToFile(aliases);
+
         listManager.getList().getRepositories("");
         stackManager.getStack().visible_child_name = "list-view";
     }

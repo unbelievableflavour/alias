@@ -1,10 +1,12 @@
 namespace Application {
 public class ResponseTranslator : Object{
 
+    FileManager fileManager = new FileManager();
+
     public Alias[] getAliases (){
         Alias[] aliases = {};
 
-        var file = getFile();
+        var file = fileManager.getFile("/.bash_aliases");
         
         try {
             var lines = new DataInputStream (file.read ());
@@ -35,7 +37,7 @@ public class ResponseTranslator : Object{
     }
 
     public bool checkIfAliasesAreConfigured (){
-        var file = getFile("/.bashrc");
+        var file = fileManager.getFile("/.bashrc");
         
         try {
             var lines = new DataInputStream (file.read ());
@@ -60,82 +62,28 @@ public class ResponseTranslator : Object{
         }
     }
 
-    public string getfilteredVariable(string[] splittedLine){
-        foreach (string part in splittedLine) {
-            if(part == ""){
-                continue;
-            }
-            return part;
-        }
-        return splittedLine[0];
-    }
-
-    private File getFile(string customPath = "/.bash_aliases"){
-        string path = Environment.get_home_dir () + customPath;
-
-        var file = File.new_for_path (path);
-        if (!file.query_exists ()) {
-            try {
-                file.create (FileCreateFlags.REPLACE_DESTINATION, null);
-                getFile();
-            } catch (Error e) {
-                error ("%s", e.message);
-            }
-        }
-
-        return file;
-    }
-
-    public void writeToFile(Alias[] aliases){
-        var file = getFile();
-
-        try {
-            if(file.query_exists() == true){
-
-                string newFileString = convertToString(aliases);
-
-                file.delete(null);
-                FileOutputStream fos = file.create (FileCreateFlags.REPLACE_DESTINATION, null);
-                DataOutputStream dos = new DataOutputStream (fos);
-                
-                dos.put_string (newFileString, null);
-            }
-        } catch (Error e) {
-            stderr.printf ("Error: %s\n", e.message);
-        }
-    }
-
     public void configureAliases(){
 
-        var file = getFile("/.bashrc");
+        var file = fileManager.getFile("/.bashrc");
 
-        try {
-            if(file.query_exists() == true){
+        string newFileString = "";
+        var lines = new DataInputStream (file.read ());
 
-                 string bashFileLines = "";
-                var lines = new DataInputStream (file.read ());
-
-                string line;
-                while ((line = lines.read_line (null)) != null) {
-                    bashFileLines += (line + "\n");
-                }
-                string newFileString = "\n
+        string line;
+        while ((line = lines.read_line (null)) != null) {
+            newFileString += (line + "\n");
+        }
+        
+        newFileString += "\n
 #include_bash_aliases
 if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi;";
 
-                file.delete(null);
-                FileOutputStream fos = file.create (FileCreateFlags.REPLACE_DESTINATION, null);
-                DataOutputStream dos = new DataOutputStream (fos);
-                
-                dos.put_string (bashFileLines + newFileString, null);
-            }
-        } catch (Error e) {
-            stderr.printf ("Error: %s\n", e.message);
-        }
+        fileManager.writeToFile(file, newFileString);
     }
-    private string convertToString(Alias[] aliases){
+
+    public string convertToString(Alias[] aliases){
         string rawString = "";
         
         foreach (Alias alias in aliases) { 
@@ -144,6 +92,13 @@ fi;";
         }
         
         return rawString;
+    }
+
+    public void writeToFile(Alias[] aliases){
+        string newFileString = convertToString(aliases);
+
+        var file = fileManager.getFile("/.bash_aliases");
+        fileManager.writeToFile(file, newFileString);
     }
 }
 }

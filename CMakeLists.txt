@@ -58,6 +58,7 @@
         src/StackManager.vala
         src/ListManager.vala
         src/ResponseTranslator.vala
+        src/FileManager.vala
         src/Alias.vala
         src/Dialogs/Alert.vala
         src/Dialogs/DeleteConfirm.vala
