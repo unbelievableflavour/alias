@@ -14,6 +14,15 @@
     </ul>
   </description>
  <releases>
+    <release version="0.0.3" date="2018-02-22">
+      <description>
+        <p>0.0.3</p>
+        <ul>
+          <li>Fixed appdata xml</li>
+          <li>Refactored responsetranslator and fileManager code</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.0.2" date="2018-02-22">
       <description>
         <p>0.0.2</p>
