@@ -55,7 +55,7 @@
   <developer_name>Bart Zaalberg</developer_name>
   <custom>
     <value key="x-appcenter-color-primary">rgba(245, 245, 245, 1)</value>
-    <value key="x-appcenter-color-primary-text">#fe2e56</value>
+    <value key="x-appcenter-color-primary-text">#1DB5FF</value>
   </custom>
   <url type="homepage">https://github.com/bartzaalberg/alias</url>
   <url type="bugtracker">https://github.com/bartzaalberg/alias/issues</url>
