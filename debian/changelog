@@ -1,3 +1,9 @@
+com.github.bartzaalberg.alias (0.0.4) UNSTABLE; urgency=low
+
+  * Updated color for appcenter
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Mon, 26 Feb 2018 08:57:00 +0200
+
 com.github.bartzaalberg.alias (0.0.3) UNSTABLE; urgency=low
 
   * Fixed appdata xml

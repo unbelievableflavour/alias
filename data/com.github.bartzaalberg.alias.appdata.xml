@@ -14,6 +14,14 @@
     </ul>
   </description>
  <releases>
+    <release version="0.0.4" date="2018-02-26">
+      <description>
+        <p>0.0.4</p>
+        <ul>
+          <li>Updated color for appcenter</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.0.3" date="2018-02-22">
       <description>
         <p>0.0.3</p>
