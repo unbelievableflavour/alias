@@ -12,5 +12,5 @@ namespace Application.Constants {
     public const int APPLICATION_HEIGHT = 510;
     public const int APPLICATION_WIDTH = 500;
 
-    public const Gdk.RGBA BRAND_COLOR = { 1.000, 0.157, 0.318, 1.0 };
+    public const Gdk.RGBA BRAND_COLOR = {0.114, 0.710, 1.000, 1.0};
 }

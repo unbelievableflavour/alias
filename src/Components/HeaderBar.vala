@@ -13,7 +13,7 @@ public class HeaderBar : Gtk.HeaderBar {
     Gtk.Button return_button = new Gtk.Button ();
 
     HeaderBar() {
-        //Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
+        Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
         
         generateSearchEntry();
         generateCreateButton();
