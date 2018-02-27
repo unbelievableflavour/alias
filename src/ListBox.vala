@@ -24,8 +24,6 @@ public class ListBox : Gtk.ListBox{
             return;
         }
 
-        this.add(MessageRow());
-
         foreach (Alias entry in entries) {
             if(searchWord == ""){
                 this.add (new ListBoxRow (entry));
@@ -55,16 +53,5 @@ public class ListBox : Gtk.ListBox{
         return matchCount == 0;    
     }
 
-    public Gtk.ListBoxRow MessageRow(){
-        var name = _("Note: Changes take effect after relogging in.");
-
-        var name_label = new Gtk.Label ("%s".printf (name));
-        name_label.use_markup = true;
-
-        var messageRow = new Gtk.ListBoxRow();
-        messageRow.get_style_context().add_class("listbox-message-row");
-        messageRow.add(name_label);
-        return messageRow;
-   }
 }
 }
