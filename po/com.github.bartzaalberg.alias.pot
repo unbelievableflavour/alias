@@ -34,7 +34,7 @@ msgid "Search for names of aliases"
 msgstr ""
 
 #: ../src/Components/HeaderBar.vala:45 ../src/Views/CreateView.vala:9
-msgid "Add a new alias"
+msgid "Add new alias"
 msgstr ""
 
 #: ../src/Components/HeaderBar.vala:52
@@ -58,7 +58,7 @@ msgid "Name:"
 msgstr ""
 
 #: ../src/Components/FormComponent.vala:14
-msgid "command:*"
+msgid "Command:"
 msgstr ""
 
 #: ../src/ListBox.vala:59
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../src/Views/WelcomeView.vala:9
 msgid ""
-"Some lines of code has to be added to your .bashrc file to use your aliases."
+"Few lines of code will be added to your .bashrc file, to use your aliases."
 msgstr ""
 
 #: ../src/Views/WelcomeView.vala:10
