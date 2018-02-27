@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-27 18:42+0100\n"
+"POT-Creation-Date: 2018-02-27 20:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "Search for names of aliases"
 msgstr ""
 
-#: ../src/Components/HeaderBar.vala:45 ../src/Views/CreateView.vala:9
+#: ../src/Components/HeaderBar.vala:47
 msgid "Add new alias"
 msgstr ""
 
@@ -61,39 +61,35 @@ msgstr ""
 msgid "Command:"
 msgstr ""
 
-#: ../src/ListBox.vala:59
-msgid "Note: Changes take effect after relogging in."
-msgstr ""
-
-#: ../src/Views/CreateView.vala:9
+#: ../src/Views/CreateView.vala:10
 msgid "Add a new alias"
 msgstr ""
 
-#: ../src/Views/CreateView.vala:11
+#: ../src/Views/CreateView.vala:12
 msgid "Create"
 msgstr ""
 
-#: ../src/Views/CreateView.vala:28 ../src/Views/EditView.vala:47
+#: ../src/Views/CreateView.vala:29 ../src/Views/EditView.vala:48
 msgid "Fields are invalid"
 msgstr ""
 
-#: ../src/Views/CreateView.vala:28 ../src/Views/EditView.vala:47
+#: ../src/Views/CreateView.vala:29 ../src/Views/EditView.vala:48
 msgid "Please correctly fill in all the required fields"
 msgstr ""
 
-#: ../src/Views/CreateView.vala:33
+#: ../src/Views/CreateView.vala:34
 msgid "Alias with this name already exists"
 msgstr ""
 
-#: ../src/Views/CreateView.vala:33
+#: ../src/Views/CreateView.vala:34
 msgid "Please choose a different name"
 msgstr ""
 
-#: ../src/Views/EditView.vala:9
+#: ../src/Views/EditView.vala:10
 msgid "Edit a alias"
 msgstr ""
 
-#: ../src/Views/EditView.vala:13
+#: ../src/Views/EditView.vala:14
 msgid "Edit"
 msgstr ""
 
@@ -118,10 +114,10 @@ msgstr ""
 msgid "Try searching for something else"
 msgstr ""
 
-#: ../src/Dialogs/DeleteConfirm.vala:8
+#: ../src/Dialogs/DeleteConfirm.vala:9
 msgid "Are you sure?"
 msgstr ""
 
-#: ../src/Dialogs/DeleteConfirm.vala:8
+#: ../src/Dialogs/DeleteConfirm.vala:9
 msgid "You are about to remove this alias. Are you sure?"
 msgstr ""
