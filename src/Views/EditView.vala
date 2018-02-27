@@ -3,6 +3,7 @@ public class EditView : FormComponent {
 
     private ListManager listManager = ListManager.get_instance();
     private StackManager stackManager = StackManager.get_instance();
+    CommandManager commandManager = new CommandManager();
 
     public EditView(){ 
 
@@ -60,8 +61,8 @@ public class EditView : FormComponent {
         aliases[index] = alias;
 
         responseTranslator.writeToFile(aliases);
-
         listManager.getList().getRepositories("");
+        commandManager.reloadAliases(); 
         stackManager.getStack().visible_child_name = "list-view";
     }
 

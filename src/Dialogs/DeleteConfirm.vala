@@ -3,6 +3,7 @@ public class DeleteConfirm : Object {
       
     private StackManager stackManager = StackManager.get_instance();
     private ListManager listManager = ListManager.get_instance();
+    private CommandManager commandManager = new CommandManager();
 
     public DeleteConfirm(Alias alias){
         var message_dialog = new Granite.MessageDialog.with_image_from_icon_name (_("Are you sure?"), _("You are about to remove this alias. Are you sure?"), "edit-delete", Gtk.ButtonsType.CANCEL);
@@ -29,8 +30,9 @@ public class DeleteConfirm : Object {
            }
         }
 
-        responseTranslator.writeToFile(newAliasList); 
-        listManager.getList().getRepositories(""); 
+        responseTranslator.writeToFile(newAliasList);
+        listManager.getList().getRepositories("");
+        commandManager.reloadAliases();
         stackManager.getStack().visible_child_name = "list-view";
     }
 }

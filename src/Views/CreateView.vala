@@ -4,6 +4,7 @@ public class CreateView : FormComponent {
     private ListManager listManager = ListManager.get_instance();
     private StackManager stackManager = StackManager.get_instance();
     ResponseTranslator responseTranslator = new ResponseTranslator();
+    CommandManager commandManager = new CommandManager();
 
     public CreateView(){
         general_header.set_text(_("Add a new alias"));
@@ -46,6 +47,7 @@ public class CreateView : FormComponent {
 
         responseTranslator.writeToFile(aliases);
         listManager.getList().getRepositories(""); 
+        commandManager.reloadAliases();
         stackManager.getStack().visible_child_name = "list-view";
     }
 
