@@ -48,6 +48,14 @@ public class EditView : FormComponent {
             return;
         }
 
+        if(alias.getShortcut().substring(0,1) != "\""){ 
+            alias.setShortcut("\"" + alias.getShortcut()); 
+        } 
+ 
+        if(alias.getShortcut().substring(-1) != "\""){ 
+            alias.setShortcut(alias.getShortcut() + "\""); 
+        } 
+
         var index = getCorrectAliasIndex(alias, aliases);      
         aliases[index] = alias;
 

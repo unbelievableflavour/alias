@@ -34,6 +34,14 @@ public class CreateView : FormComponent {
             return;
         }
 
+        if(alias.getShortcut().substring(0,1) != "\""){
+            alias.setShortcut("\"" + alias.getShortcut());
+        }
+
+        if(alias.getShortcut().substring(-1) != "\""){
+            alias.setShortcut(alias.getShortcut() + "\"");
+        }
+
         aliases += alias;
 
         responseTranslator.writeToFile(aliases);
