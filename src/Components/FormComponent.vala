@@ -11,7 +11,7 @@ public class FormComponent : Gtk.Grid{
     public FormComponent(){
 
         var nameLabel = new FormLabel (_("Name:"));
-        var shortcutLabel = new FormLabel (_("command:*"));
+        var shortcutLabel = new FormLabel (_("Command:"));
 
         button_box.set_layout (Gtk.ButtonBoxStyle.END);
         button_box.set_margin_start(12);

@@ -44,7 +44,7 @@ public class HeaderBar : Gtk.HeaderBar {
     }
 
     private void generateCreateButton(){
-        create_button.set_tooltip_text(_("Add a new alias"));
+        create_button.set_tooltip_text(_("Add new alias"));
         create_button.no_show_all = true;
         create_button.visible = true;
         create_button.clicked.connect (() => {

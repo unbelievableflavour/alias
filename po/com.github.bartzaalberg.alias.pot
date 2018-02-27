@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-21 22:56+0100\n"
+"POT-Creation-Date: 2018-02-27 18:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Add new alias"
 msgstr ""
 
-#: ../src/Components/HeaderBar.vala:52
+#: ../src/Components/HeaderBar.vala:56
 msgid "Back"
 msgstr ""
 
@@ -63,6 +63,10 @@ msgstr ""
 
 #: ../src/ListBox.vala:59
 msgid "Note: Changes take effect after relogging in."
+msgstr ""
+
+#: ../src/Views/CreateView.vala:9
+msgid "Add a new alias"
 msgstr ""
 
 #: ../src/Views/CreateView.vala:11

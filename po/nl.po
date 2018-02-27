@@ -21,7 +21,7 @@ msgid "Search for names of aliases"
 msgstr "Zoek voor namen van aliasen"
 
 #: ../src/Components/HeaderBar.vala:45 ../src/Views/CreateView.vala:9
-msgid "Add a new alias"
+msgid "Add new alias"
 msgstr "Voeg een nieuwe alias toe"
 
 #: ../src/Components/HeaderBar.vala:52
@@ -45,8 +45,8 @@ msgid "Name:"
 msgstr "Naam:"
 
 #: ../src/Components/FormComponent.vala:14
-msgid "command:*"
-msgstr "command:*"
+msgid "Command:"
+msgstr "Command:"
 
 #: ../src/ListBox.vala:59
 msgid "Note: Changes take effect after relogging in."
@@ -85,8 +85,7 @@ msgid "You are new!"
 msgstr "Je bent nieuw!"
 
 #: ../src/Views/WelcomeView.vala:9
-msgid ""
-"Some lines of code has to be added to your .bashrc file to use your aliases."
+msgid "Few lines of code will be added to your .bashrc file, to use your aliases."
 msgstr "Er moeten een paar regels worden toegevoegd aan het .bashrc bestand om je aliasen te kunnen gebruiken."
 
 #: ../src/Views/WelcomeView.vala:10

@@ -6,7 +6,7 @@ public class WelcomeView : Gtk.ScrolledWindow {
     private StackManager stackManager = StackManager.get_instance();
 
     public WelcomeView(){ 
-        var welcome_view = new Welcome(_("You are new!"), _("Some lines of code has to be added to your .bashrc file to use your aliases."));
+        var welcome_view = new Welcome(_("You are new!"), _("Few lines of code will be added to your .bashrc file, to use your aliases."));
             welcome_view.append("document-properties", _("I'm OK with that."), "");
 
         welcome_view.activated.connect ((option) => {
