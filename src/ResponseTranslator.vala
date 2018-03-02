@@ -17,7 +17,12 @@ public class ResponseTranslator : Object{
 
                 if(line == "" || line == null){
                     continue;
-                }                
+                }
+
+                if((line.strip().substring (0, 1) == "#")){
+                    continue;                    
+                }
+
 
                 var alias = new Alias();
 
