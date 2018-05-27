@@ -14,6 +14,15 @@
     </ul>
   </description>
  <releases>
+   <release version="0.1.1" date="2018-05-27">
+      <description>
+        <p>Russian translation and bug fix</p>
+        <ul>
+          <li>Added Russian translation</li>
+          <li>Fixed a bug where app would crash on comments in file</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2018-02-27">
       <description>
         <p>Relogging is not required anymore</p>

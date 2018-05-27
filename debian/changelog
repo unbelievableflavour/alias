@@ -1,3 +1,10 @@
+com.github.bartzaalberg.alias (0.1.1) UNSTABLE; urgency=low
+
+  * Added Russian translation
+  * Fixed a bug where app would crash on comments in file
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Sun, 27 May 2018 10:47:00 +0200
+
 com.github.bartzaalberg.alias (0.1.0) UNSTABLE; urgency=low
 
   * Added brand color for headerbar
