@@ -13,7 +13,16 @@
        <li>Use handy shortcuts to navigate the app</li>
     </ul>
   </description>
- <releases>
+  <releases>
+   <release version="0.1.2" date="2018-10-15">
+     <description>
+        <p>Added Houston CI and Juno Release</p>
+        <ul>
+            <li>Added the new Houston CI</li>
+            <li>Released for Juno</li>
+        </ul>
+     </description>
+   </release>
    <release version="0.1.1" date="2018-05-27">
       <description>
         <p>Russian translation and bug fix</p>

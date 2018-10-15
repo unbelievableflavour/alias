@@ -15,7 +15,7 @@
     set (PKGDATADIR "${DATADIR}/com.github.bartzaalberg.alias")
 
     set (EXEC_NAME "com.github.bartzaalberg.alias")
-    set (VERSION "0.1.1")
+    set (VERSION "0.1.2")
     set (VERSION_INFO "version information")
 
     set (DEPS_PACKAGES
@@ -46,7 +46,7 @@
     add_subdirectory (po)
 
     #------------------------------------------------------------------------------------------
-    
+
     # files we want to compile
     include(ValaPrecompile)
     vala_precompile(VALA_C ${EXEC_NAME}
