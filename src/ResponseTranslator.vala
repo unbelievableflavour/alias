@@ -55,6 +55,10 @@ public class ResponseTranslator : Object{
                     continue;
                 }
 
+                if(line == "# Alias definitions."){
+                    return true;
+                }
+
                 if(line == "#include_bash_aliases"){
                     return true;
                 }
