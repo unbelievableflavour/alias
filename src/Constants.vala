@@ -6,9 +6,9 @@ namespace Application.Constants {
     public const string ICON = "com.github.bartzaalberg.repositories";
     public const string MAIN_URL = "https://github.com/bartzaalberg/alias";
     public const string BUG_URL = MAIN_URL + "/issues";
-    public const string VERSION = "0.1.2";
-    public const string VERSION_INFO = "Unstable";
-    public const string APP_YEARS = "2017-2018";
+    public const string VERSION = "1.0.0";
+    public const string VERSION_INFO = "Stable";
+    public const string APP_YEARS = "2017-2019";
     public const int APPLICATION_HEIGHT = 510;
     public const int APPLICATION_WIDTH = 500;
 
