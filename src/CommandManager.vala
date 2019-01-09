@@ -7,7 +7,7 @@ public class CommandManager : Object{
         int status;
 
         try {
-            Process.spawn_command_line_sync ("pantheon-terminal -x 'source ~/.bashrc'",
+            Process.spawn_command_line_sync ("io.elementary.terminal -x 'source ~/.bashrc'",
 						                out result,
 						                out error,
 						                out status);
