@@ -1,5 +1,124 @@
+# French translations for PACKAGE package.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# NathanBnm, 2019.
+#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-27 20:38+0100\n"
+"PO-Revision-Date: 2019-01-16 19:02+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/ListBoxRow.vala:53
+msgid "Edit this alias"
+msgstr "Modifier cet alias"
+
+#: ../src/ListBoxRow.vala:66
+msgid "Remove this alias"
+msgstr "Supprimer cet alias"
+
+#: ../src/Components/HeaderBar.vala:37
+msgid "Search for aliases"
+msgstr "Rechercher des alias"
+
+#: ../src/Components/HeaderBar.vala:38
+msgid "Search for names of aliases"
+msgstr "Rechercher des noms d'alias"
+
+#: ../src/Components/HeaderBar.vala:47
+msgid "Add new alias"
+msgstr "Ajouter un nouvel alias"
+
+#: ../src/Components/HeaderBar.vala:56
+msgid "Back"
+msgstr "Retour"
+
+#: ../src/Components/FormComponent.vala:4
+msgid "A form"
+msgstr "Formulaire"
+
+#: ../src/Components/FormComponent.vala:6
+msgid "name"
+msgstr "nom"
+
+#: ../src/Components/FormComponent.vala:7
+msgid "command"
+msgstr "commande"
+
+#: ../src/Components/FormComponent.vala:13
+msgid "Name:"
+msgstr "Nom :"
+
+#: ../src/Components/FormComponent.vala:14
+msgid "Command:"
+msgstr "Commande :"
+
+#: ../src/Views/CreateView.vala:10
+msgid "Add a new alias"
+msgstr "Ajouter un nouvel alias"
+
+#: ../src/Views/CreateView.vala:12
+msgid "Create"
+msgstr "Créer"
+
+#: ../src/Views/CreateView.vala:29 ../src/Views/EditView.vala:48
+msgid "Fields are invalid"
+msgstr "Certains champs sont invalides"
+
+#: ../src/Views/CreateView.vala:29 ../src/Views/EditView.vala:48
+msgid "Please correctly fill in all the required fields"
+msgstr "Veuillez remplir correctement tous les champs requis"
+
+#: ../src/Views/CreateView.vala:34
+msgid "Alias with this name already exists"
+msgstr "Un alias de même nom existe déjà"
+
+#: ../src/Views/CreateView.vala:34
+msgid "Please choose a different name"
+msgstr "Veuillez choisir un nom différent"
+
+#: ../src/Views/EditView.vala:10
+msgid "Edit a alias"
+msgstr "Modifier un alias"
+
+#: ../src/Views/EditView.vala:14
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../src/Views/WelcomeView.vala:9
+msgid "You are new!"
+msgstr "Vous voici !"
+
+#: ../src/Views/WelcomeView.vala:9
+msgid ""
+"Few lines of code will be added to your .bashrc file, to use your aliases."
+msgstr ""
+"Quelques lignes de code seront ajoutées à votre fichier.bashrc, pour utiliser vos alias."
+
+#: ../src/Views/WelcomeView.vala:10
+msgid "I'm OK with that."
+msgstr "Je suis d'accord avec ça."
+
+#: ../src/Views/NotFoundView.vala:7
+msgid "Nothing was found"
+msgstr "Rien n'a été trouvé"
+
+#: ../src/Views/NotFoundView.vala:7
+msgid "Try searching for something else"
+msgstr "Essayez de chercher autre chose"
+
+#: ../src/Dialogs/DeleteConfirm.vala:9
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: ../src/Dialogs/DeleteConfirm.vala:9
+msgid "You are about to remove this alias. Are you sure?"
+msgstr "Vous êtes sur le point de supprimer cet alias. Êtes-vous sûr ?"
