@@ -46,8 +46,9 @@ ninja
 
 ## FAQ
 
-### Does the application work for ZSH?
-Yes it does! You just have to add the following lines to your .zshrc file.
+### Does the application work with ZSH?
+
+ZSH is not supported out of the box. It is however possible to use the application with ZSH if you add the following lines to your `.zshrc` file.
 ```
 if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
