@@ -1,3 +1,11 @@
+com.github.bartzaalberg.alias (1.1.0) STABLE; urgency=low
+
+  * Fixed translations
+  * Added French translation
+  * Application is now single-instance
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Thu, 17 Jan 2019 20:26:00 +0200
+
 com.github.bartzaalberg.alias (1.0.0) STABLE; urgency=low
 
   * Changed building to meson
