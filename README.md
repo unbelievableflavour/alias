@@ -43,3 +43,13 @@ ninja
 
 ### Installing
 `sudo ninja install`
+
+## FAQ
+
+### Does the application work for ZSH?
+Yes it does! You just have to add the following lines to your .zshrc file.
+```
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi;
+```
