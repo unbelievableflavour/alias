@@ -4,19 +4,19 @@ public class Alias : Object {
     private string name;
     private string shortcut;
 
-    public string getName(){
+    public string get_name () {
         return this.name;
     }
 
-    public void setName(string name){
+    public void set_name (string name) {
         this.name = name;
     }
 
-    public string getShortcut(){
+    public string get_shortcut () {
         return this.shortcut;
     }
 
-    public void setShortcut(string shortcut){
+    public void set_shortcut (string shortcut) {
         this.shortcut = shortcut;
     }
 }
