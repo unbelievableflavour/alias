@@ -1,13 +1,13 @@
 namespace Application {
-public class ResponseTranslator : Object{
+public class ResponseTranslator : Object {
 
-    FileManager fileManager = new FileManager();
+    FileManager file_manager = new FileManager ();
 
-    public Alias[] getAliases (){
+    public Alias[] get_aliases () {
         Alias[] aliases = {};
 
-        var file = fileManager.getFile("/.bash_aliases");
-        
+        var file = file_manager.get_file ("/.bash_aliases");
+
         try {
             var lines = new DataInputStream (file.read ());
 
@@ -15,21 +15,20 @@ public class ResponseTranslator : Object{
 
             while ((line = lines.read_line (null)) != null) {
 
-                if(line == "" || line == null){
+                if (line == "" || line == null) {
                     continue;
                 }
 
-                if((line.strip().substring (0, 1) == "#")){
-                    continue;                    
+                if ((line.strip ().substring (0, 1) == "#")) {
+                    continue;
                 }
 
+                var alias = new Alias ();
 
-                var alias = new Alias();
-
-                var splittedLine = line.split("alias");
-                var splittedLine2 = splittedLine[1].split("=");
-                alias.setShortcut(splittedLine2[1].strip());
-                alias.setName(splittedLine2[0].strip());
+                var splitted_line = line.split ("alias");
+                var splitted_line2 = splitted_line[1].split ("=");
+                alias.set_shortcut (splitted_line2[1].strip ());
+                alias.set_name (splitted_line2[0].strip ());
 
                 aliases += alias;
             }
@@ -41,9 +40,9 @@ public class ResponseTranslator : Object{
         }
     }
 
-    public bool checkIfAliasesAreConfigured (){
-        var file = fileManager.getFile("/.bashrc");
-        
+    public bool check_if_aliases_are_configured () {
+        var file = file_manager.get_file ("/.bashrc");
+
         try {
             var lines = new DataInputStream (file.read ());
 
@@ -51,15 +50,15 @@ public class ResponseTranslator : Object{
 
             while ((line = lines.read_line (null)) != null) {
 
-                if(line == "" || line == null){
+                if (line == "" || line == null) {
                     continue;
                 }
 
-                if(line == "# Alias definitions."){
+                if (line == "# Alias definitions.") {
                     return true;
                 }
 
-                if(line == "#include_bash_aliases"){
+                if (line == "#include_bash_aliases") {
                     return true;
                 }
             }
@@ -71,43 +70,46 @@ public class ResponseTranslator : Object{
         }
     }
 
-    public void configureAliases(){
+    public void configure_aliases () {
+        try {
+            var file = file_manager.get_file ("/.bashrc");
 
-        var file = fileManager.getFile("/.bashrc");
+            string newFileString = "";
+            var lines = new DataInputStream (file.read ());
 
-        string newFileString = "";
-        var lines = new DataInputStream (file.read ());
+            string line;
+            while ((line = lines.read_line (null)) != null) {
+                newFileString += (line + "\n");
+            }
 
-        string line;
-        while ((line = lines.read_line (null)) != null) {
-            newFileString += (line + "\n");
+            newFileString += "\n
+    #include_bash_aliases
+    if [ -f ~/.bash_aliases ]; then
+        source ~/.bash_aliases
+    fi;";
+
+            file_manager.write_to_file (file, newFileString);
+        } catch (Error e) {
+            error ("%s", e.message);
         }
-        
-        newFileString += "\n
-#include_bash_aliases
-if [ -f ~/.bash_aliases ]; then
-    source ~/.bash_aliases
-fi;";
-
-        fileManager.writeToFile(file, newFileString);
     }
 
-    public string convertToString(Alias[] aliases){
-        string rawString = "";
-        
-        foreach (Alias alias in aliases) { 
-            string rawAlias = "alias " + alias.getName() + "=" + alias.getShortcut() + "\n";
-            rawString += rawAlias;
+    public string convert_to_string (Alias[] aliases) {
+        string raw_string = "";
+
+        foreach (Alias alias in aliases) {
+            string raw_alias = "alias " + alias.get_name () + "=" + alias.get_shortcut () + "\n";
+            raw_string += raw_alias;
         }
-        
-        return rawString;
+
+        return raw_string;
     }
 
-    public void writeToFile(Alias[] aliases){
-        string newFileString = convertToString(aliases);
+    public void write_to_file (Alias[] aliases) {
+        string new_file_string = convert_to_string (aliases);
 
-        var file = fileManager.getFile("/.bash_aliases");
-        fileManager.writeToFile(file, newFileString);
+        var file = file_manager.get_file ("/.bash_aliases");
+        file_manager.write_to_file (file, new_file_string);
     }
 }
 }

@@ -1,57 +1,56 @@
 using Granite.Widgets;
 
 namespace Application {
-public class ListBox : Gtk.ListBox{
+public class ListBox : Gtk.ListBox {
 
-    private ResponseTranslator responseTranslator = new ResponseTranslator();
-    private StackManager stackManager = StackManager.get_instance();
+    private ResponseTranslator response_translator = new ResponseTranslator ();
+    private StackManager stack_manager = StackManager.get_instance ();
 
-    public void empty(){
+    public void empty () {
         this.foreach ((ListBoxRow) => {
-            this.remove(ListBoxRow);
-        }); 
+            this.remove (ListBoxRow);
+        });
     }
 
-    public void getRepositories(string searchWord = ""){
-        this.empty();
+    public void get_repositories (string search_word = "") {
+        this.empty ();
 
-        stackManager.getStack().visible_child_name = "list-view";
+        stack_manager.get_stack ().visible_child_name = "list-view";
 
-        var entries = responseTranslator.getAliases();
+        var entries = response_translator.get_aliases ();
 
-        if(searchWordDoesntMatchAnyInList(searchWord, entries)) {
-            stackManager.getStack().visible_child_name = "not-found-view";
+        if (search_word_doesnt_match_any_in_the_list (search_word, entries)) {
+            stack_manager.get_stack ().visible_child_name = "not-found-view";
             return;
         }
 
         foreach (Alias entry in entries) {
-            if(searchWord == ""){
+            if (search_word == "") {
                 this.add (new ListBoxRow (entry));
                 continue;
             }
 
-            if(searchWord in entry.getName()){
+            if (search_word in entry.get_name ()) {
                 this.add (new ListBoxRow (entry));
             }
         }
 
-        this.show_all();
+        this.show_all ();
     }
 
-    private bool searchWordDoesntMatchAnyInList(string searchWord, Alias[] entries){
+    private bool search_word_doesnt_match_any_in_the_list (string search_word, Alias[] entries) {
         int matchCount = 0;
-        
-        if(searchWord == ""){
+
+        if (search_word == "") {
             return false;
         }
 
         foreach (Alias entry in entries) {
-            if(searchWord in entry.getName()){
-                matchCount++;                
+            if (search_word in entry.get_name ()) {
+                matchCount++;
             }
         }
-        return matchCount == 0;    
+        return matchCount == 0;
     }
-
 }
 }
