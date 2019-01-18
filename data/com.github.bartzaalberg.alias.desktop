@@ -2,7 +2,7 @@
 Name=Alias
 GenericName=Alias
 Comment=Simplify your commands
-Categories=GTK;Utility;
+Categories=GTK;Utility;Development;
 Exec=com.github.bartzaalberg.alias
 Icon=com.github.bartzaalberg.alias
 Terminal=false
