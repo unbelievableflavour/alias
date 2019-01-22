@@ -1,3 +1,11 @@
+com.github.bartzaalberg.alias (1.1.1) STABLE; urgency=high
+
+  * Added OARS rating
+  * Fixed crash on unsupported commands
+  * Added development category for appcenter
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Thu, 17 Jan 2019 15:06:00 +0200
+
 com.github.bartzaalberg.alias (1.1.0) STABLE; urgency=low
 
   * Fixed translations
