@@ -69,7 +69,7 @@ public class ListBoxRow : Gtk.ListBoxRow {
         delete_button.set_tooltip_text (_("Remove this alias"));
         delete_button.button_press_event.connect (() => {
             new DeleteConfirm (alias);
-            list_manager.get_list ().get_repositories ("");
+            list_manager.get_list ().get_aliases ("");
             return true;
         });
 

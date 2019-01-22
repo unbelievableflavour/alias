@@ -46,7 +46,7 @@ public class CreateView : FormComponent {
         aliases += alias;
 
         response_translator.write_to_file (aliases);
-        list_manager.get_list ().get_repositories ("");
+        list_manager.get_list ().get_aliases ("");
         command_manager.reload_aliases ();
         stack_manager.get_stack ().visible_child_name = "list-view";
     }

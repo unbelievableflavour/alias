@@ -12,7 +12,7 @@ public class ListBox : Gtk.ListBox {
         });
     }
 
-    public void get_repositories (string search_word = "") {
+    public void get_aliases (string search_word = "") {
         this.empty ();
 
         stack_manager.get_stack ().visible_child_name = "list-view";

@@ -39,7 +39,7 @@ public class HeaderBar : Gtk.HeaderBar {
         search_entry.no_show_all = true;
         search_entry.visible = true;
         search_entry.search_changed.connect (() => {
-            list_manager.get_list ().get_repositories (search_entry.text);
+            list_manager.get_list ().get_aliases (search_entry.text);
         });
     }
 

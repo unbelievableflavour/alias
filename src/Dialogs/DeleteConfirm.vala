@@ -36,7 +36,7 @@ public class DeleteConfirm : Object {
         }
 
         response_translator.write_to_file (new_alias_list);
-        list_manager.get_list ().get_repositories ("");
+        list_manager.get_list ().get_aliases ("");
         command_manager.reload_aliases ();
         stack_manager.get_stack ().visible_child_name = "list-view";
     }

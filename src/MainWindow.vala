@@ -21,10 +21,10 @@ public class MainWindow : Gtk.Window {
 
         stack_manager.load_views (this);
 
-        list_manager.get_list ().get_repositories ("");
+        list_manager.get_list ().get_aliases ("");
 
         var response_translator = new ResponseTranslator ();
-        if (!response_translator.check_if_aliases_are_configured ()) {
+        if (!response_translator.aliases_are_configured ()) {
             stack_manager.get_stack ().visible_child_name = "welcome-view";
         }
 

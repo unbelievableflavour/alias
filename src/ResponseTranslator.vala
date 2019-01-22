@@ -40,7 +40,7 @@ public class ResponseTranslator : Object {
         }
     }
 
-    public bool check_if_aliases_are_configured () {
+    public bool aliases_are_configured () {
         var file = file_manager.get_file ("/.bashrc");
 
         try {
