@@ -15,7 +15,7 @@ public class ResponseTranslator : Object {
 
             while ((line = lines.read_line (null)) != null) {
 
-                if (line == "" || line == null) {
+                if (line == "" || line == null || line.strip () == "") {
                     continue;
                 }
 
