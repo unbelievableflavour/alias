@@ -15,20 +15,41 @@ public class ResponseTranslator : Object {
 
             while ((line = lines.read_line (null)) != null) {
 
-                if (line == "" || line == null || line.strip () == "") {
+                line = line.strip ();
+
+                if (line == "" || line == null) {
                     continue;
                 }
 
-                if ((line.strip ().substring (0, 1) == "#")) {
+                if (line.length > 6 && line.substring (0, 5) == "alias") {
+                    var alias = new Alias ();
+
+                    var splitted_line = line.split ("alias", 2);
+                    var splitted_line2 = splitted_line[1].split ("=", 2);
+                    alias.set_shortcut (splitted_line2[1].strip ());
+                    alias.set_name (splitted_line2[0].strip ());
+                    alias.set_command ("alias");
+
+                    aliases += alias;
+                    continue;
+                }
+
+                if (line.length > 6 && line.substring (0, 6) == "export") {
+                    var alias = new Alias ();
+
+                    var splitted_line = line.split ("export");
+                    var splitted_line2 = splitted_line[1].split ("=", 2);
+                    alias.set_shortcut (splitted_line2[1].strip ());
+                    alias.set_name (splitted_line2[0].strip ());
+                    alias.set_command ("export");
+
+                    aliases += alias;
                     continue;
                 }
 
                 var alias = new Alias ();
-
-                var splitted_line = line.split ("alias");
-                var splitted_line2 = splitted_line[1].split ("=");
-                alias.set_shortcut (splitted_line2[1].strip ());
-                alias.set_name (splitted_line2[0].strip ());
+                alias.set_command ("unknown");
+                alias.set_name (line);
 
                 aliases += alias;
             }
@@ -98,7 +119,13 @@ public class ResponseTranslator : Object {
         string raw_string = "";
 
         foreach (Alias alias in aliases) {
-            string raw_alias = "alias " + alias.get_name () + "=" + alias.get_shortcut () + "\n";
+
+            if (alias.get_command () == "unknown") {
+                raw_string += alias.get_name () + "\n";
+                continue;
+            }
+
+            string raw_alias = alias.get_command () + " " + alias.get_name () + "=" + alias.get_shortcut () + "\n";
             raw_string += raw_alias;
         }
 

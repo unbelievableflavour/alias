@@ -25,6 +25,11 @@ public class ListBox : Gtk.ListBox {
         }
 
         foreach (Alias entry in entries) {
+
+            if (entry.get_command () == "unknown") {
+                continue;
+            }
+
             if (search_word == "") {
                 this.add (new ListBoxRow (entry));
                 continue;
