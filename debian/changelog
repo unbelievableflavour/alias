@@ -1,3 +1,12 @@
+com.github.bartzaalberg.alias (1.2.0) STABLE; urgency=low
+
+  * New icon thanks to Mitchell Johnson
+  * New theme
+  * Fixed link to appcenter
+  * Single-instance now actually working
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Wed, 23 Jan 2019 18:39:00 +0200
+
 com.github.bartzaalberg.alias (1.1.1) STABLE; urgency=high
 
   * Added OARS rating
