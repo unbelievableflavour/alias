@@ -10,7 +10,7 @@ public class CreateView : FormComponent {
         general_header.set_text (_("Add a new alias"));
 
         var create_button = new Gtk.Button.with_label (_("Create"));
-        create_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+        create_button.get_style_context ().add_class ("primary-button");
         create_button.clicked.connect (() => {
            add_alias_to_file ();
         });

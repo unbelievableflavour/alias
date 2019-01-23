@@ -12,7 +12,7 @@ public class EditView : FormComponent {
         name_entry.set_sensitive (false);
 
         var edit_button = new Gtk.Button.with_label (_("Edit"));
-        edit_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+        edit_button.get_style_context ().add_class ("primary-button");
         edit_button.clicked.connect (() => {
            edit_alias_in_file ();
         });

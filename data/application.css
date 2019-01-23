@@ -1,3 +1,5 @@
+@define-color textColorPrimary #fff;
+
 .listbox-message-row {
     background-color: #3995D2;
     color: @fff;
@@ -9,3 +11,10 @@
 .name-label {
     font-weight: bold;
 }
+
+.primary-button {
+    background-color: #1A2834;
+    color: #fff;
+    border-width: 0px;
+}
+

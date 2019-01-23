@@ -9,7 +9,7 @@ public class HeaderBar : Gtk.HeaderBar {
     StackManager stack_manager = StackManager.get_instance ();
 
     public Gtk.SearchEntry search_entry = new Gtk.SearchEntry ();
-    Gtk.Button create_button = new Gtk.Button.from_icon_name ("tag-new", Gtk.IconSize.LARGE_TOOLBAR);
+    Gtk.Button create_button = new Gtk.Button.from_icon_name ("tag-new-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
     Gtk.Button return_button = new Gtk.Button ();
 
     HeaderBar () {
