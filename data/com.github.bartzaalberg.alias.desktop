@@ -12,5 +12,5 @@ Keywords=guess;alias;
 Actions=AboutDialog;
 
 [Desktop Action AboutDialog]
-Exec=xdg-open appstream://com.github.bartzaalberg.alias.desktop
+Exec=xdg-open appstream://com.github.bartzaalberg.alias
 Name=About Alias
