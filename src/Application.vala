@@ -7,6 +7,7 @@ public class App:Granite.Application {
 
     construct {
         program_name = Constants.APPLICATION_NAME;
+        application_id = Constants.APPLICATION_NAME;
     }
 
     protected override void activate () {
