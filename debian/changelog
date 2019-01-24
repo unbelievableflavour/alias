@@ -1,3 +1,9 @@
+com.github.bartzaalberg.alias (1.3.0) STABLE; urgency=low
+
+  * Added translation for metadata
+
+ -- Bart Zaalberg <bartzaalberg@gmail.com>  Wed, 24 Jan 2019 19:26:00 +0200
+
 com.github.bartzaalberg.alias (1.2.0) STABLE; urgency=low
 
   * New icon thanks to Mitchell Johnson
