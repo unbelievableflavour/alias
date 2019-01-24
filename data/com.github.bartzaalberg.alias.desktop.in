@@ -8,7 +8,7 @@ Icon=com.github.bartzaalberg.alias
 Terminal=false
 Type=Application
 X-GNOME-Gettext-Domain=alias
-Keywords=guess;alias;
+Keywords=shortcuts;alias;commands;aliases;bash;
 Actions=AboutDialog;
 
 [Desktop Action AboutDialog]
