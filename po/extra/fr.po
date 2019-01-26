@@ -1,0 +1,56 @@
+# French translations for extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.bartzaalberg.alias package.
+# NathanBnm, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-24 19:02+0100\n"
+"PO-Revision-Date: 2019-01-26 23:45+0100\n"
+"Last-Translator: NathanBnm\n"
+"Language-Team: Français\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:6
+#: data/com.github.bartzaalberg.alias.desktop.in:3
+msgid "Alias"
+msgstr "Alias"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:7
+#: data/com.github.bartzaalberg.alias.desktop.in:4
+msgid "Simplify your commands"
+msgstr "Simplifiez vos commandes"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:9
+msgid "A tool to manage your bash aliases"
+msgstr "Un outil pour gérer les alias de votre bash"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:10
+msgid "Features:"
+msgstr "Fonctionnalités :"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:12
+msgid "Manage your aliases"
+msgstr "Gérez vos alias"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:13
+msgid "Use handy shortcuts to navigate the app"
+msgstr "Utilisez des raccourcis pratiques pour naviguer dans l'applcation"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:30
+msgid "Bart Zaalberg"
+msgstr "Bart Zaalberg"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:6
+msgid "com.github.bartzaalberg.alias"
+msgstr "com.github.bartzaalberg.alias"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:11
+msgid "shortcuts;alias;commands;aliases;bash;"
+msgstr "raccourcis;alias;commandes;bash;"
