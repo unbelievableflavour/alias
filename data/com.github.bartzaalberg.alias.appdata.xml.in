@@ -13,28 +13,9 @@
        <li>Use handy shortcuts to navigate the app</li>
     </ul>
   </description>
-  <screenshots>
-    <screenshot type="default">
-      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png</image>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot2.png</image>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot3.png</image>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot4.png</image>
-    </screenshot>
-  </screenshots>
-  <developer_name>Bart Zaalberg</developer_name>
-  <custom>
-    <value key="x-appcenter-color-primary">#E7E6E5</value>
-    <value key="x-appcenter-color-primary-text">#1A2834</value>
-  </custom>
-  <url type="homepage">https://github.com/bartzaalberg/alias</url>
-  <url type="bugtracker">https://github.com/bartzaalberg/alias/issues</url>
-  <url type="help">https://github.com/bartzaalberg/alias/issues</url>
+  <provides>
+    <binary>com.github.bartzaalberg.alias</binary>
+  </provides>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
@@ -185,4 +166,26 @@
       </description>
     </release>
   </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/bartzaalberg/alias/master/screenshot4.png</image>
+    </screenshot>
+  </screenshots>
+  <developer_name>Bart Zaalberg</developer_name>
+  <custom>
+    <value key="x-appcenter-color-primary">#E7E6E5</value>
+    <value key="x-appcenter-color-primary-text">#1A2834</value>
+  </custom>
+  <url type="homepage">https://github.com/bartzaalberg/alias</url>
+  <url type="bugtracker">https://github.com/bartzaalberg/alias/issues</url>
+  <url type="help">https://github.com/bartzaalberg/alias/issues</url>
 </component>
