@@ -11,6 +11,9 @@ public class HeaderBar : Gtk.HeaderBar {
     public Gtk.SearchEntry search_entry = new Gtk.SearchEntry ();
     Gtk.Button create_button = new Gtk.Button.from_icon_name ("tag-new-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
     Gtk.Button return_button = new Gtk.Button ();
+    private Granite.ModeSwitch dark_mode_switch = new Granite.ModeSwitch.from_icon_name (
+        "display-brightness-symbolic", "weather-clear-night-symbolic"
+    );
 
     HeaderBar () {
         Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
@@ -18,12 +21,14 @@ public class HeaderBar : Gtk.HeaderBar {
         generate_search_entry ();
         generate_create_button ();
         generate_return_button ();
+        generate_dark_mode_button ();
 
         this.show_close_button = true;
 
         this.pack_start (return_button);
         this.pack_start (create_button);
-        this.pack_end (search_entry);
+        this.set_custom_title (search_entry);
+        this.pack_end (dark_mode_switch);
     }
 
     public static HeaderBar get_instance () {
@@ -123,6 +128,16 @@ public class HeaderBar : Gtk.HeaderBar {
         chooser.close ();
 
         return filePath;
+    }
+
+    private void generate_dark_mode_button () {
+        GLib.Settings settings = new GLib.Settings (Constants.APPLICATION_NAME);
+        var gtk_settings = Gtk.Settings.get_default ();
+        dark_mode_switch.primary_icon_tooltip_text = _("Light mode");
+        dark_mode_switch.secondary_icon_tooltip_text = _("Dark mode");
+        dark_mode_switch.valign = Gtk.Align.CENTER;
+        dark_mode_switch.bind_property ("active", gtk_settings, "gtk_application_prefer_dark_theme");
+        settings.bind ("use-dark-theme", dark_mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
     }
 }
 }

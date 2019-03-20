@@ -43,6 +43,10 @@ msgstr "Gérez vos alias"
 msgid "Use handy shortcuts to navigate the app"
 msgstr "Utilisez des raccourcis pratiques pour naviguer dans l'applcation"
 
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:14
+msgid "Choose between light and dark with dark mode"
+msgstr ""
+
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:30
 msgid "Bart Zaalberg"
 msgstr "Bart Zaalberg"
