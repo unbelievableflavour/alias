@@ -37,6 +37,11 @@ public class MainWindow : Gtk.Window {
                     header_bar.search_entry.grab_focus ();
                   }
                   break;
+                case Gdk.Key.l:
+                  if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
+                    stack_manager.get_stack ().visible_child_name = "list-view";
+                  }
+                  break;
                 case Gdk.Key.q:
                   if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
                     this.destroy ();

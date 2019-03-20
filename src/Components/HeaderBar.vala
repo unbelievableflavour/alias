@@ -40,7 +40,7 @@ public class HeaderBar : Gtk.HeaderBar {
 
     private void generate_search_entry () {
         search_entry.set_placeholder_text (_("Search for aliases"));
-        search_entry.set_tooltip_text (_("Search for names of aliases"));
+        search_entry.tooltip_markup = Granite.markup_accel_tooltip ({"<Ctrl>F"}, _("Search for names of aliases"));
         search_entry.no_show_all = true;
         search_entry.visible = true;
         search_entry.search_changed.connect (() => {
@@ -50,6 +50,7 @@ public class HeaderBar : Gtk.HeaderBar {
 
     private void generate_create_button () {
         create_button.set_tooltip_text (_("Add new alias"));
+        create_button.tooltip_markup = Granite.markup_accel_tooltip ({"<Ctrl>A"}, _("Add new alias"));
         create_button.no_show_all = true;
         create_button.visible = true;
         create_button.clicked.connect (() => {
@@ -58,6 +59,7 @@ public class HeaderBar : Gtk.HeaderBar {
     }
 
     private void generate_return_button () {
+        return_button.tooltip_markup = Granite.markup_accel_tooltip ({"<Ctrl>L"}, _("Back"));
         return_button.label = _("Back");
         return_button.no_show_all = true;
         return_button.get_style_context ().add_class ("back-button");
@@ -115,7 +117,6 @@ public class HeaderBar : Gtk.HeaderBar {
 
         string filePath = "";
 
-        // Process response:
         if (chooser.run () == Gtk.ResponseType.ACCEPT) {
             SList<string> uris = chooser.get_uris ();
 
@@ -124,7 +125,6 @@ public class HeaderBar : Gtk.HeaderBar {
             }
         }
 
-        // Close the FileChooserDialog:
         chooser.close ();
 
         return filePath;
