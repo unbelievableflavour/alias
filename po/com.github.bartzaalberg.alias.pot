@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.bartzaalberg.alias\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 19:02+0100\n"
+"POT-Creation-Date: 2019-03-24 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,18 +106,26 @@ msgstr ""
 msgid "Command:"
 msgstr ""
 
-#: src/Components/HeaderBar.vala:37
+#: src/Components/HeaderBar.vala:42
 msgid "Search for aliases"
 msgstr ""
 
-#: src/Components/HeaderBar.vala:38
+#: src/Components/HeaderBar.vala:43
 msgid "Search for names of aliases"
 msgstr ""
 
-#: src/Components/HeaderBar.vala:47
+#: src/Components/HeaderBar.vala:52 src/Components/HeaderBar.vala:53
 msgid "Add new alias"
 msgstr ""
 
-#: src/Components/HeaderBar.vala:56
+#: src/Components/HeaderBar.vala:62 src/Components/HeaderBar.vala:63
 msgid "Back"
+msgstr ""
+
+#: src/Components/HeaderBar.vala:136
+msgid "Light mode"
+msgstr ""
+
+#: src/Components/HeaderBar.vala:137
+msgid "Dark mode"
 msgstr ""

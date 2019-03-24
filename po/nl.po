@@ -1,113 +1,134 @@
+# Dutch translations for the com.github.bartzaalberg.alias package.
+# Copyright (C) 2019 THE com.github.bartzaalberg.alias'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.bartzaalberg.alias package.
+# Automatically Generated, 2019.
+#
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-24 01:57+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ../src/ListBoxRow.vala:53
+#: src/ListBoxRow.vala:56
 msgid "Edit this alias"
 msgstr "Wijzig deze alias"
 
-#: ../src/ListBoxRow.vala:66
+#: src/ListBoxRow.vala:69
 msgid "Remove this alias"
 msgstr "Verwijder deze alias"
 
-#: ../src/Components/HeaderBar.vala:37
-msgid "Search for aliases"
-msgstr "Zoek voor aliasen"
-
-#: ../src/Components/HeaderBar.vala:38
-msgid "Search for names of aliases"
-msgstr "Zoek voor namen van aliasen"
-
-#: ../src/Components/HeaderBar.vala:45 ../src/Views/CreateView.vala:9
-msgid "Add new alias"
-msgstr "Voeg een nieuwe alias toe"
-
-#: ../src/Components/HeaderBar.vala:52
-msgid "Back"
-msgstr "Terug"
-
-#: ../src/Components/FormComponent.vala:4
-msgid "A form"
-msgstr "Een formulier"
-
-#: ../src/Components/FormComponent.vala:6
-msgid "name"
-msgstr "naam"
-
-#: ../src/Components/FormComponent.vala:7
-msgid "command"
-msgstr "command"
-
-#: ../src/Components/FormComponent.vala:13
-msgid "Name:"
-msgstr "Naam:"
-
-#: ../src/Components/FormComponent.vala:14
-msgid "Command:"
-msgstr "Command:"
-
-#: ../src/ListBox.vala:59
-msgid "Note: Changes take effect after relogging in."
-msgstr "Let op! De wijzigingen werken pas als je opnieuw bent ingelogd."
-
-#: ../src/Views/CreateView.vala:11
-msgid "Create"
-msgstr "Creeer"
-
-#: ../src/Views/CreateView.vala:28 ../src/Views/EditView.vala:47
-msgid "Fields are invalid"
-msgstr "Velden zijn onjuist ingevuld"
-
-#: ../src/Views/CreateView.vala:28 ../src/Views/EditView.vala:47
-msgid "Please correctly fill in all the required fields"
-msgstr "Vul aub de verplichte velden juist in."
-
-#: ../src/Views/CreateView.vala:33
-msgid "Alias with this name already exists"
-msgstr "Een alias met dezelfde naam bestaat al"
-
-#: ../src/Views/CreateView.vala:33
-msgid "Please choose a different name"
-msgstr "Kies aub een andere naam"
-
-#: ../src/Views/EditView.vala:9
-msgid "Edit a alias"
-msgstr "Wijzig een alias"
-
-#: ../src/Views/EditView.vala:13
-msgid "Edit"
-msgstr "Wijzigen"
-
-#: ../src/Views/WelcomeView.vala:9
-msgid "You are new!"
-msgstr "Je bent nieuw!"
-
-#: ../src/Views/WelcomeView.vala:9
-msgid "Few lines of code will be added to your .bashrc file, to use your aliases."
-msgstr "Er moeten een paar regels worden toegevoegd aan het .bashrc bestand om je aliasen te kunnen gebruiken."
-
-#: ../src/Views/WelcomeView.vala:10
-msgid "I'm OK with that."
-msgstr "Dit vind ik goed."
-
-#: ../src/Views/NotFoundView.vala:7
-msgid "Nothing was found"
-msgstr "Er is helaas niet gevonden"
-
-#: ../src/Views/NotFoundView.vala:7
-msgid "Try searching for something else"
-msgstr "Probeer naar iets anders te zoeken"
-
-#: ../src/Dialogs/Cheatsheet.vala:29
-msgid "Close"
-msgstr "Sluiten"
-
-#: ../src/Dialogs/DeleteConfirm.vala:8
+#: src/Dialogs/DeleteConfirm.vala:10
 msgid "Are you sure?"
 msgstr "Weet u het zeker?"
 
-#: ../src/Dialogs/DeleteConfirm.vala:8
+#: src/Dialogs/DeleteConfirm.vala:11
 msgid "You are about to remove this alias. Are you sure?"
 msgstr "U staat op het punt deze alias te verwijderen. Weet u dit zeker?"
+
+#: src/Views/NotFoundView.vala:8
+msgid "Nothing was found"
+msgstr "Er is helaas niet gevonden"
+
+#: src/Views/NotFoundView.vala:9
+msgid "Try searching for something else"
+msgstr "Probeer naar iets anders te zoeken"
+
+#: src/Views/WelcomeView.vala:10
+msgid "You are new!"
+msgstr "Je bent nieuw!"
+
+#: src/Views/WelcomeView.vala:11
+msgid ""
+"Few lines of code will be added to your .bashrc file, to use your aliases."
+msgstr ""
+"Er moeten een paar regels worden toegevoegd aan het .bashrc bestand om je "
+"aliasen te kunnen gebruiken."
+
+#: src/Views/WelcomeView.vala:13
+msgid "I'm OK with that."
+msgstr "Dit vind ik goed."
+
+#: src/Views/EditView.vala:10
+msgid "Edit a alias"
+msgstr "Wijzig een alias"
+
+#: src/Views/EditView.vala:14
+msgid "Edit"
+msgstr "Wijzigen"
+
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+msgid "Fields are invalid"
+msgstr "Velden zijn onjuist ingevuld"
+
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
+msgid "Please correctly fill in all the required fields"
+msgstr "Vul aub de verplichte velden juist in."
+
+#: src/Views/CreateView.vala:10
+#, fuzzy
+msgid "Add a new alias"
+msgstr "Voeg een nieuwe alias toe"
+
+#: src/Views/CreateView.vala:12
+msgid "Create"
+msgstr "Creeer"
+
+#: src/Views/CreateView.vala:34
+msgid "Alias with this name already exists"
+msgstr "Een alias met dezelfde naam bestaat al"
+
+#: src/Views/CreateView.vala:34
+msgid "Please choose a different name"
+msgstr "Kies aub een andere naam"
+
+#: src/Components/FormComponent.vala:4
+msgid "A form"
+msgstr "Een formulier"
+
+#: src/Components/FormComponent.vala:6
+msgid "name"
+msgstr "naam"
+
+#: src/Components/FormComponent.vala:7
+msgid "command"
+msgstr "command"
+
+#: src/Components/FormComponent.vala:13
+msgid "Name:"
+msgstr "Naam:"
+
+#: src/Components/FormComponent.vala:14
+msgid "Command:"
+msgstr "Command:"
+
+#: src/Components/HeaderBar.vala:42
+msgid "Search for aliases"
+msgstr "Zoek voor aliasen"
+
+#: src/Components/HeaderBar.vala:43
+msgid "Search for names of aliases"
+msgstr "Zoek voor namen van aliasen"
+
+#: src/Components/HeaderBar.vala:52 src/Components/HeaderBar.vala:53
+msgid "Add new alias"
+msgstr "Voeg een nieuwe alias toe"
+
+#: src/Components/HeaderBar.vala:62 src/Components/HeaderBar.vala:63
+msgid "Back"
+msgstr "Terug"
+
+#: src/Components/HeaderBar.vala:136
+msgid "Light mode"
+msgstr ""
+
+#: src/Components/HeaderBar.vala:137
+msgid "Dark mode"
+msgstr ""
+
+#~ msgid "Note: Changes take effect after relogging in."
+#~ msgstr "Let op! De wijzigingen werken pas als je opnieuw bent ingelogd."
+
+#~ msgid "Close"
+#~ msgstr "Sluiten"
