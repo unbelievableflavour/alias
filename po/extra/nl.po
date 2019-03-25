@@ -41,19 +41,19 @@ msgstr "Kies tussen licht en donker met donkere modus"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:52
 msgid "Dark mode and shortcut labels"
-msgstr ""
+msgstr "Donkere modus en"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:54
 msgid "Added dark mode"
-msgstr ""
+msgstr "Donkere modus toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:55
 msgid "Added shortcut labels to buttons"
-msgstr ""
+msgstr "Snelkoppeling labels aan knoppen toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:61
 msgid "Remember size and position"
-msgstr ""
+msgstr "Onthoudt grootte en positie"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:63
 msgid "Added french metadata translation"
@@ -201,23 +201,23 @@ msgstr ""
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:173
 msgid "0.0.2"
-msgstr ""
+msgstr "0.0.2"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:175
 msgid "Fixed deployment"
-msgstr ""
+msgstr "Deployment gerepareerd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:176
 msgid "Removed buttons from welcome view"
-msgstr ""
+msgstr "Knoppen verwijderd van welkom scherm"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:182
 msgid "0.0.1"
-msgstr ""
+msgstr "0.0.1"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:184
 msgid "First release"
-msgstr ""
+msgstr "Eerste release"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:203
 msgid "Bart Zaalberg"
