@@ -57,147 +57,147 @@ msgstr "Onthoudt grootte en positie"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:63
 msgid "Added french metadata translation"
-msgstr ""
+msgstr "Vertaling voor Franse metadata toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:64
 msgid "Remember size and position of window"
-msgstr ""
+msgstr "Onthoudt grootte en positie" van venster"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:65
 msgid "Added translation for About label"
-msgstr ""
+msgstr "Vertaling voor Over ons label toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:71
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:73
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:79
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:81
 msgid "Added translation for metadata"
-msgstr ""
+msgstr "Vertaling voor metadata toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:87
 msgid "New theme!"
-msgstr ""
+msgstr "Nieuw thema!"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:89
 msgid "New icon thanks to Mitchell Johnson"
-msgstr ""
+msgstr "Nieuws icoon dankzij Mitchell Johnson"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:90
 msgid "New theme"
-msgstr ""
+msgstr "Nieuw thema"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:91
 msgid "Fixed link to appcenter"
-msgstr ""
+msgstr "Link naar appcenter gerepareerd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:92
 msgid "Single-instance now actually working"
-msgstr ""
+msgstr "Een-instantie werkt nu echt"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:98
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:101
 msgid "Fixed crash on unsupported commands"
-msgstr ""
+msgstr "Crash op niet ondersteunde commandos gerepareerd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:100
 msgid "Added OARS rating"
-msgstr ""
+msgstr "AORS rating toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:102
 msgid "Added development category for appcenter"
-msgstr ""
+msgstr "ontwikkelings categorie aan appcenter toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:108
 msgid "Single-instance, fixed translations"
-msgstr ""
+msgstr "Een-instantie, vertalingen gerepareerd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:110
 msgid "Fixed translations"
-msgstr ""
+msgstr "Vertalingen gerepareerd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:111
 msgid "Added French translation"
-msgstr ""
+msgstr "Franse vertaling toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:112
 msgid "Application is now single-instance"
-msgstr ""
+msgstr "Applicatie is nu een-instantie"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:118
 msgid "Meson, and some fixes"
-msgstr ""
+msgstr "Meson, en wat reparaties"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:120
 msgid "Moved to meson"
-msgstr ""
+msgstr "Overgestapt naar Meson"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:121
 msgid "Fixed the error when saving alias"
-msgstr ""
+msgstr "Error verholpen bij opslaan van alias"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:122
 msgid "Fixed the bug where the app would ask to add bash_aliases to eOS"
-msgstr ""
+msgstr "Bug verholpen bij toevoegen van bash_aliases aan eOS"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:128
 msgid "Added Houston CI and Juno Release"
-msgstr ""
+msgstr "Houston CI toegevoegd en Juno release"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:130
 msgid "Added the new Houston CI"
-msgstr ""
+msgstr "Nieuwe Houston CI toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:131
 msgid "Released for Juno"
-msgstr ""
+msgstr "Release voor Juno"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:137
 msgid "Russian translation and bug fix"
-msgstr ""
+msgstr "Russische vertaling en bug reparatie"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:139
 msgid "Added Russian translation"
-msgstr ""
+msgstr "Russische vertaling toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:140
 msgid "Fixed a bug where app would crash on comments in file"
-msgstr ""
+msgstr "Bug verholpen waar de applicatie crashte op file comments"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:146
 msgid "Relogging is not required anymore"
-msgstr ""
+msgstr "Opnieuw inloggen is nu niet meer nodig"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:148
 msgid "Added brand color for headerbar"
-msgstr ""
+msgstr "Merk kleur voor headerbar toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:149
 msgid "~/.bashrc is reloaded after new, edit, and delete"
-msgstr ""
+msgstr "~/.bashrc wordt opnieuw ingeladen na new, edit, en delete"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:150
 msgid "Quotes are now automatically added to field"
-msgstr ""
+msgstr "Quotes worden nu automatisch toegevoegd aan veld"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:156
 msgid "0.0.4"
-msgstr ""
+msgstr "0.0.4"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:158
 msgid "Updated color for appcenter"
-msgstr ""
+msgstr "kleur voor appcenter verandard"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:164
 msgid "0.0.3"
-msgstr ""
+msgstr "0.0.3"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:166
 msgid "Fixed appdata xml"
-msgstr ""
+msgstr "appdata xml gerepareerd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:167
 msgid "Refactored responsetranslator and fileManager code"
-msgstr ""
+msgstr "herstructurering van responsetranslator en filemanager code"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:173
 msgid "0.0.2"
