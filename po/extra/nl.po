@@ -33,7 +33,7 @@ msgstr "Beheer je aliasen"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:13
 msgid "Use handy shortcuts to navigate the app"
-msgstr "Gebruik handige shortcuts om door je applicatie te navigeren "
+msgstr "Gebruik handige shortcuts om door je applicatie te navigeren"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:14
 msgid "Choose between light and dark with dark mode"
@@ -61,7 +61,7 @@ msgstr "Vertaling voor Franse metadata toegevoegd"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:64
 msgid "Remember size and position of window"
-msgstr "Onthoudt grootte en positie" van venster"
+msgstr "Onthoudt grootte en positie van venster"
 
 #: data/com.github.bartzaalberg.alias.appdata.xml.in:65
 msgid "Added translation for About label"
