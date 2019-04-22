@@ -3,133 +3,134 @@
 # This file is distributed under the same license as the com.github.bartzaalberg.alias package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.bartzaalberg.alias\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-24 01:57+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-04-22 14:41+0200\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
 
 #: src/ListBoxRow.vala:56
 msgid "Edit this alias"
-msgstr ""
+msgstr "Diesen Eintrag bearbeiten"
 
 #: src/ListBoxRow.vala:69
 msgid "Remove this alias"
-msgstr ""
+msgstr "Diesen Eintrag entfernen"
 
 #: src/Dialogs/DeleteConfirm.vala:10
 msgid "Are you sure?"
-msgstr ""
+msgstr "Bist du sicher?"
 
 #: src/Dialogs/DeleteConfirm.vala:11
 msgid "You are about to remove this alias. Are you sure?"
-msgstr ""
+msgstr "Soll dieser Eintrag wirklich entfernt werden?"
 
 #: src/Views/NotFoundView.vala:8
 msgid "Nothing was found"
-msgstr ""
+msgstr "Es wurde nichts gefunden"
 
 #: src/Views/NotFoundView.vala:9
 msgid "Try searching for something else"
-msgstr ""
+msgstr "Versuche nach etwas anderem zu suchen"
 
 #: src/Views/WelcomeView.vala:10
 msgid "You are new!"
-msgstr ""
+msgstr "Du bist neu!"
 
 #: src/Views/WelcomeView.vala:11
-msgid ""
-"Few lines of code will be added to your .bashrc file, to use your aliases."
-msgstr ""
+msgid "Few lines of code will be added to your .bashrc file, to use your aliases."
+msgstr "Es werden nur wenige Zeilen Code zu Ihrer.bashrc-Datei hinzugefügt."
 
 #: src/Views/WelcomeView.vala:13
 msgid "I'm OK with that."
-msgstr ""
+msgstr "Ich bin damit einverstanden."
 
 #: src/Views/EditView.vala:10
 msgid "Edit a alias"
-msgstr ""
+msgstr "Eintrag bearbeiten"
 
 #: src/Views/EditView.vala:14
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
 msgid "Fields are invalid"
-msgstr ""
+msgstr "Einige Felder enthalten ungültige Eingaben"
 
 #: src/Views/EditView.vala:48 src/Views/CreateView.vala:29
 msgid "Please correctly fill in all the required fields"
-msgstr ""
+msgstr "Bitte fülle alle Pflichtfelder korrekt aus"
 
 #: src/Views/CreateView.vala:10
 msgid "Add a new alias"
-msgstr ""
+msgstr "Neuen Eintrag hinzufügen"
 
 #: src/Views/CreateView.vala:12
 msgid "Create"
-msgstr ""
+msgstr "Erstellen"
 
 #: src/Views/CreateView.vala:34
 msgid "Alias with this name already exists"
-msgstr ""
+msgstr "Ein Eintrag mit diesem Namen existiert bereits"
 
 #: src/Views/CreateView.vala:34
 msgid "Please choose a different name"
-msgstr ""
+msgstr "Bitte wähle einen anderen Namen aus"
 
 #: src/Components/FormComponent.vala:4
+#, fuzzy
 msgid "A form"
-msgstr ""
+msgstr "A form"
 
 #: src/Components/FormComponent.vala:6
 msgid "name"
-msgstr ""
+msgstr "name"
 
 #: src/Components/FormComponent.vala:7
 msgid "command"
-msgstr ""
+msgstr "befehl"
 
 #: src/Components/FormComponent.vala:13
 msgid "Name:"
-msgstr ""
+msgstr "Name:"
 
 #: src/Components/FormComponent.vala:14
 msgid "Command:"
-msgstr ""
+msgstr "Befehl:"
 
 #: src/Components/HeaderBar.vala:42
 msgid "Search for aliases"
-msgstr ""
+msgstr "Einträge durchsuchen"
 
 #: src/Components/HeaderBar.vala:43
 msgid "Search for names of aliases"
-msgstr ""
+msgstr "Durchsucht vorhandene Einträge"
 
 #: src/Components/HeaderBar.vala:52 src/Components/HeaderBar.vala:53
 msgid "Add new alias"
-msgstr ""
+msgstr "Neuen Eintrag erstellen"
 
 #: src/Components/HeaderBar.vala:62 src/Components/HeaderBar.vala:63
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
 #: src/Dialogs/DeleteConfirm.vala:16
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: src/Components/HeaderBar.vala:136
 msgid "Light mode"
-msgstr ""
+msgstr "Helles Design"
 
 #: src/Components/HeaderBar.vala:137
 msgid "Dark mode"
-msgstr ""
+msgstr "Dunkles Design"

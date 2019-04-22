@@ -123,6 +123,10 @@ msgstr "Ajouter un nouvel alias"
 msgid "Back"
 msgstr "Retour"
 
+#: src/Dialogs/DeleteConfirm.vala:16
+msgid "Delete"
+msgstr "Supprimer"
+
 #: src/Components/HeaderBar.vala:136
 msgid "Light mode"
 msgstr "Thème clair"
