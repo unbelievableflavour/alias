@@ -121,6 +121,10 @@ msgstr "Добавить новый алиас"
 msgid "Back"
 msgstr "Назад"
 
+#: src/Dialogs/DeleteConfirm.vala:16
+msgid "Delete"
+msgstr "Удалить"
+
 #: src/Components/HeaderBar.vala:136
 msgid "Light mode"
 msgstr ""

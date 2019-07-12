@@ -119,6 +119,10 @@ msgstr "Voeg een nieuwe alias toe"
 msgid "Back"
 msgstr "Terug"
 
+#: src/Dialogs/DeleteConfirm.vala:16
+msgid "Delete"
+msgstr "doorhalen"
+
 #: src/Components/HeaderBar.vala:136
 msgid "Light mode"
 msgstr ""

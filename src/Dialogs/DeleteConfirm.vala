@@ -13,7 +13,7 @@ public class DeleteConfirm : Object {
              Gtk.ButtonsType.CANCEL
         );
 
-        var suggested_button = new Gtk.Button.with_label ("Delete");
+        var suggested_button = new Gtk.Button.with_label ( _("Delete"));
         suggested_button.get_style_context ().add_class (Gtk.STYLE_CLASS_DESTRUCTIVE_ACTION);
         message_dialog.add_action_widget (suggested_button, Gtk.ResponseType.ACCEPT);
 
