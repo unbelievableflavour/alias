@@ -47,6 +47,15 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="1.5.2" date="2019-07-13">
+     <description>
+        <p>Fixed saving and German translations(Thnx to Patbec</p>
+        <ul>
+            <li>Fixed saving aliases</li>
+            <li>Added German translations</li>
+        </ul>
+     </description>
+   </release>
     <release version="1.5.1" date="2019-07-01">
      <description>
         <p>Updated translations</p>
