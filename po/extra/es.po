@@ -1,0 +1,246 @@
+# Spanish translations for extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.bartzaalberg.alias package.
+# Daniel R. <riesp@pm.me>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-24 02:01+0100\n"
+"PO-Revision-Date: 2019-10-26 15:30+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:6
+#: data/com.github.bartzaalberg.alias.desktop.in:3
+#: data/com.github.bartzaalberg.alias.desktop.in:4
+msgid "Alias"
+msgstr "Alias"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:7
+#: data/com.github.bartzaalberg.alias.desktop.in:5
+msgid "Simplify your commands"
+msgstr "Simplifique sus comandos"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:9
+msgid "A tool to manage your bash aliases"
+msgstr "Una herramienta para administrar sus alias de bash"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:10
+msgid "Features:"
+msgstr "Características:"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:12
+msgid "Manage your aliases"
+msgstr "Administre sus alias"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:13
+msgid "Use handy shortcuts to navigate the app"
+msgstr "Use atajos útiles para navegar por la aplicación"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:14
+msgid "Choose between light and dark with dark mode"
+msgstr "Elija entre claro y oscuro con el modo oscuro"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:52
+msgid "Dark mode and shortcut labels"
+msgstr "Modo oscuro y etiquetas de acceso directo"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:54
+msgid "Added dark mode"
+msgstr "Modo oscuro agregado"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:55
+msgid "Added shortcut labels to buttons"
+msgstr "Se agregaron etiquetas de acceso directo a los botones"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:61
+msgid "Remember size and position"
+msgstr "Recordar tamaño y posición"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:63
+msgid "Added french metadata translation"
+msgstr "Se agregó la traducción de metadatos al francés"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:64
+msgid "Remember size and position of window"
+msgstr "Recordar el tamaño y la posición de la ventana"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:65
+msgid "Added translation for About label"
+msgstr "Se agregó la traducción para la etiqueta Acerca de"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:71
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:73
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:79
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:81
+msgid "Added translation for metadata"
+msgstr "Traducción agregada para metadatos"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:87
+msgid "New theme!"
+msgstr "¡Nuevo tema!"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:89
+msgid "New icon thanks to Mitchell Johnson"
+msgstr "Nuevo icono gracias a Mitchell Johnson"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:90
+msgid "New theme"
+msgstr "Nuevo tema"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:91
+msgid "Fixed link to appcenter"
+msgstr "Enlace al Centro de Aplicaciones arreglado"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:92
+msgid "Single-instance now actually working"
+msgstr "Instancia única trabajando realmente ahora"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:98
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:101
+msgid "Fixed crash on unsupported commands"
+msgstr "Se corrigió el bloqueo en comandos no compatibles"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:100
+msgid "Added OARS rating"
+msgstr "Calificación OARS agregada"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:102
+msgid "Added development category for appcenter"
+msgstr "Se agregó la categoría de desarrollo para el Centro de Aplicaciones"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:108
+msgid "Single-instance, fixed translations"
+msgstr "Instancia única, traducciones corregidas"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:110
+msgid "Fixed translations"
+msgstr "Traducciones corregidas"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:111
+msgid "Added French translation"
+msgstr "Traducción al Francés añadida"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:112
+msgid "Application is now single-instance"
+msgstr "La aplicación es ahora de instancia única"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:118
+msgid "Meson, and some fixes"
+msgstr "Meson, y algunas correcciones"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:120
+msgid "Moved to meson"
+msgstr "Movido a meson"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:121
+msgid "Fixed the error when saving alias"
+msgstr "Corregido el error al guardar alias"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:122
+msgid "Fixed the bug where the app would ask to add bash_aliases to eOS"
+msgstr "Se corrigió el error donde la aplicación pedía agregar bash_aliases a eOS"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:128
+msgid "Added Houston CI and Juno Release"
+msgstr "Añadido Houston CI y lanzamiento de Juno"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:130
+msgid "Added the new Houston CI"
+msgstr "Añadido el nuevo Houston CI"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:131
+msgid "Released for Juno"
+msgstr "Lanzado para Juno"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:137
+msgid "Russian translation and bug fix"
+msgstr "Traducción al ruso y corrección de errores"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:139
+msgid "Added Russian translation"
+msgstr "Traducción al ruso añadida"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:140
+msgid "Fixed a bug where app would crash on comments in file"
+msgstr "Se corrigió un error por el cual la aplicación se bloqueaba en los comentarios del archivo"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:146
+msgid "Relogging is not required anymore"
+msgstr "Ya no es necesario volver a iniciar sesión"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:148
+msgid "Added brand color for headerbar"
+msgstr "Color de marca agregado para la barra de encabezado"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:149
+msgid "~/.bashrc is reloaded after new, edit, and delete"
+msgstr "~/.bashrc es recargado después de nuevo, editar y eliminar"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:150
+msgid "Quotes are now automatically added to field"
+msgstr "Las comillas ahora se agregan automáticamente al campo"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:156
+msgid "0.0.4"
+msgstr "0.0.4"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:158
+msgid "Updated color for appcenter"
+msgstr "Color actualizado para el Centro de Aplicaciones"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:164
+msgid "0.0.3"
+msgstr "0.0.3"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:166
+msgid "Fixed appdata xml"
+msgstr "Corregido xml de appdata"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:167
+msgid "Refactored responsetranslator and fileManager code"
+msgstr "Traductor de respuestas refactorizado y código del administrador de archivos"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:173
+msgid "0.0.2"
+msgstr "0.0.2"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:175
+msgid "Fixed deployment"
+msgstr "Corregido el despliegue"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:176
+msgid "Removed buttons from welcome view"
+msgstr "Botones eliminados de la vista de bienvenida"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:182
+msgid "0.0.1"
+msgstr "0.0.1"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:184
+msgid "First release"
+msgstr "Primer lanzamiento"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:203
+msgid "Bart Zaalberg"
+msgstr "Bart Zaalberg"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:8
+msgid "com.github.bartzaalberg.alias"
+msgstr "com.github.bartzaalberg.alias"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:12
+msgid "shortcuts;alias;commands;aliases;bash;"
+msgstr "atajos;alias;comandos;bash;"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:17
+msgid "About Alias"
+msgstr "Acerca de Alias"
