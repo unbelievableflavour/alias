@@ -1,135 +1,138 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.bartzaalberg.alias package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Turkish translation for alias.
+# Copyright (C) 2019 alias'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the alias package.
 #
-#, fuzzy
+# Sabri Ünal <libreajans@gmail.com>, 2019.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.bartzaalberg.alias\n"
+"Project-Id-Version: com.github.bartzaalberg.alias master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 18:43+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-11-29 11:59+0300\n"
+"PO-Revision-Date: 2019-11-29 08:32+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: src/ListBoxRow.vala:56
 msgid "Edit this alias"
-msgstr ""
+msgstr "Takma adı düzenle"
 
 #: src/ListBoxRow.vala:69
 msgid "Remove this alias"
-msgstr ""
+msgstr "Takma adı kaldır"
 
 #: src/Dialogs/DeleteConfirm.vala:10
 msgid "Are you sure?"
-msgstr ""
+msgstr "Emin misiniz?"
 
 #: src/Dialogs/DeleteConfirm.vala:11
 msgid "You are about to remove this alias. Are you sure?"
-msgstr ""
+msgstr "Bu takma adı kaldırmak üzeresiniz. Emin misiniz?"
 
 #: src/Dialogs/DeleteConfirm.vala:16
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 #: src/Views/NotFoundView.vala:8
 msgid "Nothing was found"
-msgstr ""
+msgstr "Hiçbir şey bulunamadı"
 
 #: src/Views/NotFoundView.vala:9
 msgid "Try searching for something else"
-msgstr ""
+msgstr "Başka bir şey ara"
 
 #: src/Views/WelcomeView.vala:10
 msgid "You are new!"
-msgstr ""
+msgstr "Siz yenisiniz galiba!"
 
 #: src/Views/WelcomeView.vala:11
 msgid ""
 "Few lines of code will be added to your .bashrc file, to use your aliases."
 msgstr ""
+"Takma adları kullanmak için .bashrc dosyanıza birkaç satır kod eklenir."
 
 #: src/Views/WelcomeView.vala:13
 msgid "I'm OK with that."
-msgstr ""
+msgstr "Benim için sorun yok."
 
 #: src/Views/EditView.vala:10
 msgid "Edit a alias"
-msgstr ""
+msgstr "Takma adı düzenle"
 
 #: src/Views/EditView.vala:14
 msgid "Edit"
-msgstr ""
+msgstr "Düzenle"
 
 #: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Fields are invalid"
-msgstr ""
+msgstr "Alanlar geçersiz"
 
 #: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
 msgid "Please correctly fill in all the required fields"
-msgstr ""
+msgstr "Lütfen gerekli alanları doğru şekilde doldurun"
 
 #: src/Views/CreateView.vala:10
 msgid "Add a new alias"
-msgstr ""
+msgstr "Yeni takma ad ekle"
 
 #: src/Views/CreateView.vala:12
 msgid "Create"
-msgstr ""
+msgstr "Oluştur"
 
 #: src/Views/CreateView.vala:35
 msgid "Alias with this name already exists"
-msgstr ""
+msgstr "Bu adla bir takma ad zaten var"
 
 #: src/Views/CreateView.vala:35
 msgid "Please choose a different name"
-msgstr ""
+msgstr "Lütfen farklı bir ad seçin"
 
 #: src/Components/FormComponent.vala:4
 msgid "A form"
-msgstr ""
+msgstr "Biçim"
 
 #: src/Components/FormComponent.vala:6
 msgid "name"
-msgstr ""
+msgstr "ad"
 
 #: src/Components/FormComponent.vala:7
 msgid "command"
-msgstr ""
+msgstr "komut"
 
 #: src/Components/FormComponent.vala:13
 msgid "Name:"
-msgstr ""
+msgstr "Ad:"
 
 #: src/Components/FormComponent.vala:14
 msgid "Command:"
-msgstr ""
+msgstr "Komut:"
 
 #: src/Components/HeaderBar.vala:42
 msgid "Search for aliases"
-msgstr ""
+msgstr "Takma adları ara"
 
 #: src/Components/HeaderBar.vala:43
 msgid "Search for names of aliases"
-msgstr ""
+msgstr "Takma adların adlarını ara"
 
 #: src/Components/HeaderBar.vala:52 src/Components/HeaderBar.vala:53
 msgid "Add new alias"
-msgstr ""
+msgstr "Yeni takma ad ekle"
 
 #: src/Components/HeaderBar.vala:62 src/Components/HeaderBar.vala:63
 msgid "Back"
-msgstr ""
+msgstr "Geri"
 
 #: src/Components/HeaderBar.vala:136
 msgid "Light mode"
-msgstr ""
+msgstr "Açık kip"
 
 #: src/Components/HeaderBar.vala:137
 msgid "Dark mode"
-msgstr ""
+msgstr "Karanlık Kip"

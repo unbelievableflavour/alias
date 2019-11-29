@@ -1,0 +1,201 @@
+# Turkish translation for alias.
+# Copyright (C) 2019 alias'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the alias package.
+#
+# Sabri Ünal <libreajans@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.bartzaalberg.alias extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-29 12:03+0300\n"
+"PO-Revision-Date: 2019-11-29 08:46+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:6
+#: data/com.github.bartzaalberg.alias.desktop.in:3
+#: data/com.github.bartzaalberg.alias.desktop.in:4
+msgid "Alias"
+msgstr "Takma ad"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:7
+#: data/com.github.bartzaalberg.alias.desktop.in:5
+msgid "Simplify your commands"
+msgstr "Komutlarınızı basitleştirin"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:9
+msgid "A tool to manage your bash aliases"
+msgstr "Bash takma adlarınızı yönetmek için bir araç"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:10
+msgid "Features:"
+msgstr "Özellikler:"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:12
+msgid "Manage your aliases"
+msgstr "Takma adlarınızı yönetin"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:13
+msgid "Use handy shortcuts to navigate the app"
+msgstr "Uygulamada gezinmek için kullanışlı kısayolları kullanabilirsiniz"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:14
+msgid "Choose between light and dark with dark mode"
+msgstr "Karanlık veya açık kip arasında tercih yapabilirsiniz"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:228
+msgid "Bart Zaalberg"
+msgstr "Bart Zaalberg"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:8
+msgid "com.github.bartzaalberg.alias"
+msgstr "com.github.bartzaalberg.alias"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:12
+msgid "shortcuts;alias;commands;aliases;bash;"
+msgstr "kısayollar;takmaad;komutlar;takmaadlar;bash;"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:17
+msgid "About Alias"
+msgstr "Takma Ad Hakkında"
+
+#~ msgid "Dark mode and shortcut labels"
+#~ msgstr "Karanlık kip ve kısayol etiketleri"
+
+#~ msgid "Added dark mode"
+#~ msgstr "Karanlık kip eklendi"
+
+#~ msgid "Added shortcut labels to buttons"
+#~ msgstr "Düğmelere kısayol etiketleri eklendi"
+
+#~ msgid "Remember size and position"
+#~ msgstr "Boyutu ve konumu hatırla"
+
+#~ msgid "Added french metadata translation"
+#~ msgstr "Fransızca üstveri çevirisi eklendi"
+
+#~ msgid "Remember size and position of window"
+#~ msgstr "Pencerenin boyut ve konumunu hatırla"
+
+#~ msgid "Added translation for About label"
+#~ msgstr "Hakkında etiketi için çeviri eklendi"
+
+#~ msgid "Added translation for metadata"
+#~ msgstr "Üstveri için çeviri eklendi"
+
+#~ msgid "New theme!"
+#~ msgstr "Yeni tema!"
+
+#~ msgid "New icon thanks to Mitchell Johnson"
+#~ msgstr "Yeni tema için Mitchell Johnson'a teşekkürler"
+
+#~ msgid "New theme"
+#~ msgstr "Yeni tema"
+
+#~ msgid "Fixed link to appcenter"
+#~ msgstr "Uygulama merkezi bağlantısı düzeltildi"
+
+#~ msgid "Single-instance now actually working"
+#~ msgstr "Tek örnek artık gerçekten çalışıyor"
+
+#~ msgid "Fixed crash on unsupported commands"
+#~ msgstr "Desteklenmeyen komutlarda çökme hatası düzeltildi"
+
+#~ msgid "Added OARS rating"
+#~ msgstr "OARS derecelendirme eklendi"
+
+#~ msgid "Added development category for appcenter"
+#~ msgstr "Uygulama merkezine geliştirici kategorisi eklendi"
+
+#~ msgid "Single-instance, fixed translations"
+#~ msgstr "Tek örnek, çeviriler düzeltildi"
+
+#~ msgid "Fixed translations"
+#~ msgstr "Çeviriler düzeltildi"
+
+#~ msgid "Added French translation"
+#~ msgstr "Fransızca çeviri eklendi"
+
+#~ msgid "Application is now single-instance"
+#~ msgstr "Uygulama artık tek örnekle çalışıyor"
+
+#~ msgid "Meson, and some fixes"
+#~ msgstr "Meson ve çeşitli düzeltmeler"
+
+#~ msgid "Moved to meson"
+#~ msgstr "Meson'a taşındı"
+
+#~ msgid "Fixed the error when saving alias"
+#~ msgstr "Takma ad kaydedilirken oluşan hata düzeltildi"
+
+#~ msgid "Fixed the bug where the app would ask to add bash_aliases to eOS"
+#~ msgstr "Uygulamanın eOS'a bash_aliases eklemek istemesi hatası düzeltildi"
+
+#~ msgid "Added Houston CI and Juno Release"
+#~ msgstr "Houston CI Eklendi ve Juno Sürümü"
+
+#~ msgid "Added the new Houston CI"
+#~ msgstr "Yeni Houston CI eklendi"
+
+#~ msgid "Released for Juno"
+#~ msgstr "Juno sürümü"
+
+#~ msgid "Russian translation and bug fix"
+#~ msgstr "Rusça çeviri ve hata düzeltme"
+
+#~ msgid "Added Russian translation"
+#~ msgstr "Rusça çeviri eklendi"
+
+#~ msgid "Fixed a bug where app would crash on comments in file"
+#~ msgstr "Dosyada yorum olması durumunda oluşan çökme hatası düzeltildi"
+
+#~ msgid "Relogging is not required anymore"
+#~ msgstr "Yeniden loglama artık gerekli değil"
+
+#~ msgid "Added brand color for headerbar"
+#~ msgstr "Marka rengi başlık çubuğuna eklendi"
+
+#~ msgid "~/.bashrc is reloaded after new, edit, and delete"
+#~ msgstr ""
+#~ "Takma ad ekleme, düzenleme veya silme sonrası artık ~/.bashrc "
+#~ "kendiliğinden yeniden yükleniyor"
+
+#~ msgid "Quotes are now automatically added to field"
+#~ msgstr "Alıntılar alana artık kendiliğinden ekleniyor"
+
+#~ msgid "0.0.4"
+#~ msgstr "0.0.4"
+
+#~ msgid "Updated color for appcenter"
+#~ msgstr "Uygulama merkezi için renk güncellendi"
+
+#~ msgid "0.0.3"
+#~ msgstr "0.0.3"
+
+#~ msgid "Fixed appdata xml"
+#~ msgstr "appdata xml düzeltildi"
+
+#~ msgid "Refactored responsetranslator and fileManager code"
+#~ msgstr "Responsetranslator ve fileManager kodu yeniden düzenlendi"
+
+#~ msgid "0.0.2"
+#~ msgstr "0.0.2"
+
+#~ msgid "Fixed deployment"
+#~ msgstr "Dağıtım düzeltildi"
+
+#~ msgid "Removed buttons from welcome view"
+#~ msgstr "Hoşgeldiniz görünümünden düğmeler kaldırıldı"
+
+#~ msgid "0.0.1"
+#~ msgstr "0.0.1"
+
+#~ msgid "First release"
+#~ msgstr "İlk sürüm"
