@@ -50,7 +50,7 @@ ninja
 ### Update .pot file
 Call the following command from the build folder:
 
-`ninja com.github.bartzaalberg.recipes-pot`
+`ninja com.github.bartzaalberg.alias-pot`
 
 ## FAQ
 
