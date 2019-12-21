@@ -57,9 +57,8 @@ msgstr "com.github.bartzaalberg.alia"
 
 #: data/com.github.bartzaalberg.alias.desktop.in:12
 msgid "shortcuts;alias;commands;aliases;bash;"
-msgstr "skróty klawiszowe;alias;komendy;aliasy;bash"
+msgstr "skróty klawiszowe;alias;komendy;aliasy;bash;"
 
 #: data/com.github.bartzaalberg.alias.desktop.in:17
 msgid "About Alias"
 msgstr "O Alias"
-
