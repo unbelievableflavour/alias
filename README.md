@@ -47,6 +47,11 @@ ninja
 ### Recompile the schema after installation
 `sudo glib-compile-schemas /usr/share/glib-2.0/schemas`
 
+### Update .pot file
+Call the following command from the build folder:
+
+`ninja com.github.bartzaalberg.alias-pot`
+
 ## FAQ
 
 ### Does the application work with ZSH?
