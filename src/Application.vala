@@ -1,13 +1,10 @@
-using Granite.Widgets;
-
 namespace Application {
-public class App:Granite.Application {
+public class App:Gtk.Application {
 
     public static MainWindow window = null;
     public static GLib.Settings settings;
 
     construct {
-        program_name = Constants.APPLICATION_NAME;
         application_id = Constants.APPLICATION_NAME;
         settings = new GLib.Settings (Constants.APPLICATION_NAME);
     }
