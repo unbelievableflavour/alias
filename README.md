@@ -1,4 +1,5 @@
 <a href="https://gitlocalize.com/repo/4333"> <img src="https://gitlocalize.com/repo/4333/whole_project/badge.svg" /> </a>
+<img src="https://travis-ci.org/bartzaalberg/alias.svg?branch=master" />
 
 # Alias
 Simplify your commands
