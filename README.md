@@ -1,3 +1,5 @@
+<a href="https://gitlocalize.com/repo/4333"> <img src="https://gitlocalize.com/repo/4333/whole_project/badge.svg" /> </a>
+
 # Alias
 Simplify your commands
 

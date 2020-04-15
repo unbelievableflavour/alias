@@ -1,0 +1,136 @@
+# Polish translations for Alias.
+# This file is distributed under the same license as the com.github.bartzaalberg.alias.
+# Translated by Michał Nowakowski <nowakowski@offshore.rocks>, 2019. 
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.bartzaalberg.alias\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-29 18:43+0300\n"
+"PO-Revision-Date: 2019-12-13 17:08+0100\n"
+"Last-Translator: Michał Nowakowski <nowakowski@offshore.rocks>\n"
+"Language-Team:\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ListBoxRow.vala:56
+msgid "Edit this alias"
+msgstr "Edytuj ten alias"
+
+#: src/ListBoxRow.vala:69
+msgid "Remove this alias"
+msgstr "Usuń ten alias"
+
+#: src/Dialogs/DeleteConfirm.vala:10
+msgid "Are you sure?"
+msgstr "Jesteś pewny?"
+
+#: src/Dialogs/DeleteConfirm.vala:11
+msgid "You are about to remove this alias. Are you sure?"
+msgstr "Usuniesz ten alias."
+
+#: src/Dialogs/DeleteConfirm.vala:16
+msgid "Delete"
+msgstr "Usuń"
+
+#: src/Views/NotFoundView.vala:8
+msgid "Nothing was found"
+msgstr "Nie znaleziono"
+
+#: src/Views/NotFoundView.vala:9
+msgid "Try searching for something else"
+msgstr "Poszukaj czegoś innego"
+
+#: src/Views/WelcomeView.vala:10
+msgid "You are new!"
+msgstr "Jesteś nowy!"
+
+#: src/Views/WelcomeView.vala:11
+msgid ""
+"Few lines of code will be added to your .bashrc file, to use your aliases."
+msgstr ""
+"Kilka linii kodu zostanie dodanych do pliku .bashrc, aby użyć twoich aliasów."
+
+#: src/Views/WelcomeView.vala:13
+msgid "I'm OK with that."
+msgstr "Nie przeszkadza mi to."
+
+#: src/Views/EditView.vala:10
+msgid "Edit a alias"
+msgstr "Edytuj alias"
+
+#: src/Views/EditView.vala:14
+msgid "Edit"
+msgstr "Edytuj"
+
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
+msgid "Fields are invalid"
+msgstr "Pola są nieprawidłowe"
+
+#: src/Views/EditView.vala:48 src/Views/CreateView.vala:30
+msgid "Please correctly fill in all the required fields"
+msgstr "Wypełnij poprawnie wszystkie wymagane pola."
+
+#: src/Views/CreateView.vala:10
+msgid "Add a new alias"
+msgstr "Dodaj nowy alias"
+
+#: src/Views/CreateView.vala:12
+msgid "Create"
+msgstr "Stwórz"
+
+#: src/Views/CreateView.vala:35
+msgid "Alias with this name already exists"
+msgstr "Alias o takiej nazwie już istnieje"
+
+#: src/Views/CreateView.vala:35
+msgid "Please choose a different name"
+msgstr "Wybierz inną nazwę"
+
+#: src/Components/FormComponent.vala:4
+msgid "A form"
+msgstr "Formularz"
+
+#: src/Components/FormComponent.vala:6
+msgid "name"
+msgstr "nazwa"
+
+#: src/Components/FormComponent.vala:7
+msgid "command"
+msgstr "komenda"
+
+#: src/Components/FormComponent.vala:13
+msgid "Name:"
+msgstr "Nazwa:"
+
+#: src/Components/FormComponent.vala:14
+msgid "Command:"
+msgstr "Komenda:"
+
+#: src/Components/HeaderBar.vala:42
+msgid "Search for aliases"
+msgstr "Szukaj aliasów"
+
+#: src/Components/HeaderBar.vala:43
+msgid "Search for names of aliases"
+msgstr "Szukaj nazw aliasów"
+
+#: src/Components/HeaderBar.vala:52 src/Components/HeaderBar.vala:53
+msgid "Add new alias"
+msgstr "Dodaj nowy alias"
+
+#: src/Components/HeaderBar.vala:62 src/Components/HeaderBar.vala:63
+msgid "Back"
+msgstr "Wstecz"
+
+#: src/Components/HeaderBar.vala:136
+msgid "Light mode"
+msgstr "Jasny tryb"
+
+#: src/Components/HeaderBar.vala:137
+msgid "Dark mode"
+msgstr "Ciemny tryb"
+
