@@ -1,3 +1,5 @@
+[![gitlocalized ](https://gitlocalize.com/repo/4333/whole_project/badge.svg)]
+
 # Alias
 Simplify your commands
 
