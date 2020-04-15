@@ -1,0 +1,64 @@
+# Polish translations for Alias.
+# This file is distributed under the same license as the com.github.bartzaalberg.alias.
+# Translated by Michał Nowakowski <nowakowski@offshore.rocks>, 2019. 
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-29 18:43+0300\n"
+"PO-Revision-Date: 2019-12-13 17:08+0100\n"
+"Last-Translator: Michał Nowakowski <nowakowski@offshore.rocks>\n"
+"Language-Team:\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:6
+#: data/com.github.bartzaalberg.alias.desktop.in:3
+#: data/com.github.bartzaalberg.alias.desktop.in:4
+msgid "Alias"
+msgstr "Alias"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:7
+#: data/com.github.bartzaalberg.alias.desktop.in:5
+msgid "Simplify your commands"
+msgstr "Uprość swoje komendy"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:9
+msgid "A tool to manage your bash aliases"
+msgstr "Narzędzie do zarządzania aliasami Basha"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:10
+msgid "Features:"
+msgstr "Funkcje:"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:12
+msgid "Manage your aliases"
+msgstr "Zarządzaj swoimi aliasami"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:13
+msgid "Use handy shortcuts to navigate the app"
+msgstr "Używaj wygodnych skrótów klawiszowych do nawigowania po apce"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:14
+msgid "Choose between light and dark with dark mode"
+msgstr "Wybieraj pomiędzy jasnym i ciemnym trybem"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:228
+msgid "Bart Zaalberg"
+msgstr "Bart Zaalberg"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:8
+msgid "com.github.bartzaalberg.alias"
+msgstr "com.github.bartzaalberg.alia"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:12
+msgid "shortcuts;alias;commands;aliases;bash;"
+msgstr "skróty klawiszowe;alias;komendy;aliasy;bash;"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:17
+msgid "About Alias"
+msgstr "O Alias"
