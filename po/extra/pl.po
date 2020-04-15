@@ -53,7 +53,7 @@ msgstr "Bart Zaalberg"
 
 #: data/com.github.bartzaalberg.alias.desktop.in:8
 msgid "com.github.bartzaalberg.alias"
-msgstr "com.github.bartzaalberg.alia"
+msgstr "com.github.bartzaalberg.alias"
 
 #: data/com.github.bartzaalberg.alias.desktop.in:12
 msgid "shortcuts;alias;commands;aliases;bash;"
