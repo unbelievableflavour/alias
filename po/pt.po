@@ -52,7 +52,7 @@ msgstr "Você é novo!"
 
 #: src/Views/WelcomeView.vala:11
 msgid "Few lines of code will be added to your .bashrc file, to use your aliases."
-msgstr "Poucas linhas de código vão ser adicionadas ao seu ficheiro .bashrc, para usar os seus aliasse."
+msgstr "Poucas linhas de código vão ser adicionadas ao seu ficheiro .bashrc, para usar os seus aliases."
 
 #: src/Views/WelcomeView.vala:13
 msgid "I'm OK with that."
@@ -116,7 +116,7 @@ msgstr "Pesquisar por aliasse"
 
 #: src/Components/HeaderBar.vala:43
 msgid "Search for names of aliases"
-msgstr "Pesquisar por nomes de aliasse"
+msgstr "Pesquisar por nomes de aliases"
 
 #: src/Components/HeaderBar.vala:52 src/Components/HeaderBar.vala:53
 msgid "Add new alias"
