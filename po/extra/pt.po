@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-29 18:43+0300\n"
+"PO-Revision-Date: 2020-08-16 22:33+0100\n"
+"Language-Team: Portuguese <pt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: André Barata <andretiagob@protonmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt\n"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:6
+#: data/com.github.bartzaalberg.alias.desktop.in:3
+#: data/com.github.bartzaalberg.alias.desktop.in:4
+msgid "Alias"
+msgstr "Alias"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:7
+#: data/com.github.bartzaalberg.alias.desktop.in:5
+msgid "Simplify your commands"
+msgstr "Simplifique os seus comandos"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:9
+msgid "A tool to manage your bash aliases"
+msgstr "Uma ferramenta para gerir o bash das suas aliases"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:10
+msgid "Features:"
+msgstr "Funcionalidades:"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:12
+msgid "Manage your aliases"
+msgstr "Gerencie as suas aliases"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:13
+msgid "Use handy shortcuts to navigate the app"
+msgstr "Use atalhos úteis para navegar a aplicação"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:14
+msgid "Choose between light and dark with dark mode"
+msgstr "Escolha entre claro ou escuro com o modo escuro"
+
+#: data/com.github.bartzaalberg.alias.appdata.xml.in:228
+msgid "Bart Zaalberg"
+msgstr "Bart Zaalberg"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:8
+msgid "com.github.bartzaalberg.alias"
+msgstr "com.github.bartzaalberg.alias"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:12
+msgid "shortcuts;alias;commands;aliases;bash;"
+msgstr "atalhos;alias;comandos;aliases;bash;"
+
+#: data/com.github.bartzaalberg.alias.desktop.in:17
+msgid "About Alias"
+msgstr "Sobre o Alias"
